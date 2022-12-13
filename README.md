@@ -47,9 +47,10 @@ Back to [Table of Contents](#table-of-contents)
 5. I want to know what am I supposed to do to order a candle.
 6. I want to know what kind of product I can expect.
 7. I want to check out what kind of candle scents they are currently offering.
-8. I want to educate myself in regard to different scents and see what they are about.
-9. I want to see what kind of candles they have already done.
-10. I want to be able to contact site owners so I can get more information or to make an order.
+8. I want to check out which scents are most popular.
+9. I want to educate myself in regard to different scents and see what they are about.
+10. I want to see what kind of candles they have already done.
+11. I want to be able to contact site owners so I can get more information or to make an order.
 
 Back to [Table of Contents](#table-of-contents)
 
