@@ -38,8 +38,17 @@ Back to [Table of Contents](#table-of-contents)
 
 
 ### **Business Objectives**
+As the business:
+1. We want to attract customers with our modern design.
+2. We want accessible website for any of our potentional customers.
+3. We want to clarify what the customer can expect from us. 
+4. We want to help the customer find the perfect scent for them, by providing them with information about different scents that we offer.
+5. We want to show the customer portfolio of our previous work.
+6. We want to make ordering process simple for the customer.
+7. We want to get an order from the customer.
 
 ### **User Stories**
+As a user:
 1. I want to have clear sense what the site is about.
 2. I want to be able to easily navigate the site and in an intuitive way.
 3. I want to be able to interact with a page in a way that I am already accustomed to.
