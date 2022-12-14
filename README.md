@@ -5,6 +5,7 @@ Sugar and Spice, or *SaS*, features a "recipe" on how to order a candle, as it i
 Users are also able to view all essential oils available for candle mixtures, a bit of information about them, and most popular scents which are updated on a monthly basis.
 Lastly, the site includes a gallery of previous works done, which can be used as an inspiration point for coming up with new interesting candle shapes.
 
+
 ## **Table of Contents**
 
 - [Developer's Note](#developers-note)
@@ -35,6 +36,11 @@ Lastly, the site includes a gallery of previous works done, which can be used as
 
 
 ## **Developer's Note**
+Sugar and Spice project is created as a **Portfolio Project** for Code Institute Full Stack Software Developer program. 
+The project is showcasing the skills in HTML and CSS, which I aquired as a Code Institute student.
+
+Please **note:** This website is purely fictional, and a company in question does not exist. Altough I do enjoy candles myself, I am in no way expert, *so I would advise against using this site as a primary reference for candle related information*.
+
 Back to [Table of Contents](#table-of-contents)
 
 
