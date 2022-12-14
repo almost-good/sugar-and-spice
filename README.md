@@ -1,5 +1,9 @@
 # Sugar and Spice
+**Sugar and Spice** is company that makes custom made candles, includes it's customers in entire development process and offers deeply personalized experience. The website is targeted towards people that are interested in purchase of custom shaped candles containing specific or random scent mixtures.
 
+Sugar and Spice, or *SaS*, features a "recipe" on how to order a candle, as it is not modern webshop, but takes more traditional aproach where, depending on the needs, the customer is presented with the **price quote**.
+Users are also able to view all essential oils available for candle mixtures, a bit of information about them, and most popular scents which are updated on a monthly basis.
+Lastly, the site includes a gallery of previous works done, which can be used as an inspiration point for coming up with new interesting candle shapes.
 
 ## **Table of Contents**
 
