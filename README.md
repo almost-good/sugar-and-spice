@@ -130,6 +130,15 @@ Back to [Table of Contents](#table-of-contents)
   - **Footer**
     - SaS dedicated footer to their developer, aka me.
     - Footer is placed at the bottom of the site and includes Copyrights and the developer's social media links, GitHub and LinkedIn.
+- **Home Page**
+  - **Header**
+    - Header contains the title of the page together with two different calls to action.
+    - 1st CTA is targeted towards the site's main function which is the sale of the product. The user is able to get in touch with SaS experts and order a candle.
+    - 2nd CTA links to the Scents page, so the user can check out the different essential oils we are using in our blends. 
+    - Header is designed so the user can immediately order products or continue exploring the site.
+  - **Aroma List Section**
+    - The Aroma List Section includes three stunning images of the different aroma types available on website.
+    - This section shows users what types of fragrance we have available and it invites them to read more about each one.
 
 Back to [Table of Contents](#table-of-contents)
 
