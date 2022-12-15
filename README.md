@@ -80,7 +80,29 @@ Back to [Table of Contents](#table-of-contents)
 ### **Initial Concept**
 
 ### **Wireframes**
+Wireframes are created using Balsamiq for organizational purposes.
+<br><br>
+  
+![Home-Desktop View Wireframe](assets/docs/wireframes/home-desktop.png)
+<br><br>
 
+You can find all wireframes here:
+- **Desktop View**
+  - [Home](assets/docs/wireframes/home-desktop.png)
+  - [Scents Page](assets/docs/wireframes/scents-desktop.png)
+  - [Gallery Page](assets/docs/wireframes/gallery-desktop.png)
+  - [Contact Page](assets/docs/wireframes/contact-desktop.png)
+- **Tablet View**
+  - [Home](assets/docs/wireframes/home-tablet.png)
+  - [Scents Page](assets/docs/wireframes/scents-tablet.png)
+  - [Gallery Page](assets/docs/wireframes/gallery-tablet.png)
+  - [Contact Page](assets/docs/wireframes/contact-tablet.png)
+- **Mobile View**
+  - [Home](assets/docs/wireframes/home-mobile.png)
+  - [Scents Page](assets/docs/wireframes/scents-mobile.png)
+  - [Gallery Page](assets/docs/wireframes/gallery-mobile.png)
+  - [Contact Page](assets/docs/wireframes/contact-mobile.png)
+  - [Navigation](assets/docs/wireframes/navigation-mobile.png)
 ### **Colour Scheme**
 
 ### **Typography**
