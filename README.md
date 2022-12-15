@@ -117,6 +117,20 @@ Back to [Table of Contents](#table-of-contents)
 ### **Existing Features**
 
 ### **Features Left to Implement**
+Features shared between all pages:
+- **Navigation**
+  - Fully responsive navigation bar placed horizontally for desktop and tablet devices. For a mobile view, the navigation links are accessed through a hamburger menu in the vertical direction.
+  - The navigation bar is in a fixed position, always visible to the user, ensuring easy access to different parts of a site.
+  - The navigation bar features Sugar and Spice logo and navigational links.
+  - Navigational links direct customers to:
+    - Home page
+    - Scents page
+    - Gallery page
+    - Contact page
+- **Footer**
+  - SaS dedicated footer to their developer, aka me.
+  - Footer is placed at the bottom of the site and includes Copyrights and the developer's social media links, GitHub and LinkedIn.
+
 Back to [Table of Contents](#table-of-contents)
 
 
