@@ -146,6 +146,18 @@ Back to [Table of Contents](#table-of-contents)
     - This section lists product and delivery information, service expectation etc. 
     - This is valuable information for the user and will help them to decide if the SaS products fit their needs.
     - The end of this section features the final call-to-action, redirecting the user to the contact page to purchase the product.
+- **Scents Page**
+  - **Top Picks Section**
+    - Top Picks Section showcases the most popular scents from each group of fragrances. This section is updated every month.
+    - It's constructed as a grid of images with a different layout for mobile, tablet and desktop devices. Each group has its own specific background and each grid item has its name displayed, enabling the user to differentiate between different aromas. 
+    - Grid items have two different states.
+      - During the first state, they display part of the background image of the group, with their respectable name on top of it.
+      - Second state, the focused one, displays an image of the essential oil source with few of its traits.
+  - **Something More Section**
+    - The Something More Section is an introductionary section with the purpose of prompting the user to read the list containing all the available fragrances.
+  - **Aroma Types Section**
+    - The Aroma Types Section contains four different aroma types, with their general descriptions and traits, together with an extensive list of every fragrance available to choose from. 
+    - All aroma types are interlinked, allowing for easy navigation between them.
 
 Back to [Table of Contents](#table-of-contents)
 
