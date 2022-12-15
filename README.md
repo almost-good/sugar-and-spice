@@ -1,9 +1,9 @@
 # Sugar and Spice
-**Sugar and Spice** is company that makes custom made candles, includes it's customers in entire development process and offers deeply personalized experience. The website is targeted towards people that are interested in purchase of custom shaped candles containing specific or random scent mixtures.
+**Sugar and Spice** is a company that makes custom made-candles, includes its customers in the entire development process and offers a deeply personalized experience. The website is targeted toward people that are interested in the purchase of custom-shaped candles containing specific or random scent mixtures.
 
-Sugar and Spice, or *SaS*, features a "recipe" on how to order a candle, as it is not modern webshop, but takes more traditional aproach where, depending on the needs, the customer is presented with the **price quote**.
-Users are also able to view all essential oils available for candle mixtures, a bit of information about them, and most popular scents which are updated on a monthly basis.
-Lastly, the site includes a gallery of previous works done, which can be used as an inspiration point for coming up with new interesting candle shapes.
+Sugar and Spice, or *SaS*, features a "recipe" on how to order a candle, as it is not a modern webshop but takes more traditional approach where, depending on the needs, the customer is presented with the **price quote**.
+Users can also view all essential oils available for candle mixtures, a bit of information about them, and the most popular scents which are updated monthly.
+Lastly, the site includes a gallery of previous works done, which can be used as inspiration for coming up with new interesting candle shapes.
 
 
 ## **Table of Contents**
@@ -37,9 +37,9 @@ Lastly, the site includes a gallery of previous works done, which can be used as
 
 ## **Developer's Note**
 Sugar and Spice project is created as a **Portfolio Project** for Code Institute Full Stack Software Developer program. 
-The project is showcasing the skills in HTML and CSS, which I aquired as a Code Institute student.
+The project showcases my skills in HTML and CSS, which I acquired as a Code Institute student.
 
-Please **note:** This website is purely fictional, and a company in question does not exist. Altough I do enjoy candles myself, I am in no way expert, *so I would advise against using this site as a primary reference for candle related information*.
+Please **note:** This website is purely fictional, and the company in question does not exist. Although I enjoy candles myself, I am in no way an expert, *so I would advise against using this site as a primary reference for candle-related information*.
 
 Back to [Table of Contents](#table-of-contents)
 
@@ -50,26 +50,26 @@ Back to [Table of Contents](#table-of-contents)
 ### **Business Objectives**
 As the business:
 1. We want to attract customers with our modern design.
-2. We want accessible website for any of our potentional customers.
+2. We want an accessible website for any of our potential customers.
 3. We want to clarify what the customer can expect from us. 
-4. We want to help the customer find the perfect scent for them, by providing them with information about different scents that we offer.
+4. We want to help the customer find the perfect scent for them by providing them with information about the different scents we offer.
 5. We want to show the customer portfolio of our previous work.
-6. We want to make ordering process simple for the customer.
+6. We want to make the ordering process simple for the customer.
 7. We want to get an order from the customer.
 
 ### **User Stories**
 As a user:
-1. I want to have clear sense what the site is about.
+1. I want to have a clear sense of what the site is about.
 2. I want to be able to easily navigate the site and in an intuitive way.
-3. I want to be able to interact with a page in a way that I am already accustomed to.
+3. I want to interact with a page in a way that I am already accustomed to.
 4. I want to be able to view the site on a device of my choosing.
-5. I want to know what am I supposed to do to order a candle.
+5. I want to know what I should do to do to order a candle.
 6. I want to know what kind of product I can expect.
 7. I want to check out what kind of candle scents they are currently offering.
 8. I want to check out which scents are most popular.
 9. I want to educate myself in regard to different scents and see what they are about.
 10. I want to see what kind of candles they have already done.
-11. I want to be able to contact site owners so I can get more information or to make an order.
+11. I want to be able to contact site owners so I can get more information or make an order.
 
 Back to [Table of Contents](#table-of-contents)
 
