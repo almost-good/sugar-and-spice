@@ -158,6 +158,13 @@ Back to [Table of Contents](#table-of-contents)
   - **Aroma Types Section**
     - The Aroma Types Section contains four different aroma types, with their general descriptions and traits, together with an extensive list of every fragrance available to choose from. 
     - All aroma types are interlinked, allowing for easy navigation between them.
+- **Gallery Page**
+  - Gallery Page is used for showcasing the previous work done by the Sugar and Spice company. 
+  - Images follow a specific layout, so the final look is coherent. 
+  - Mobile layout has been adjusted so the images can remain visible on smaller devices. 
+- **Contact Page**
+  - Contact Page is the final page of the site. It enables users to get in touch with our experts, whether they seek more information regarding the products or wish to buy them.
+  - Contact Page features a standard contact form, including the name, email and content fields. 
 
 Back to [Table of Contents](#table-of-contents)
 
