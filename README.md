@@ -139,6 +139,13 @@ Back to [Table of Contents](#table-of-contents)
   - **Aroma List Section**
     - The Aroma List Section includes three stunning images of the different aroma types available on website.
     - This section shows users what types of fragrance we have available and it invites them to read more about each one.
+  - **Order Recipe Section**
+    - Order Recipe Section contains step-by-step instructions on how to order a product. Each step opens the door to more exploration, with the last inviting the user to purchase the product.
+    - This section is very important because it prompts the user to investigate what would be best for them so that we can make an outstanding product for them.
+  - **Expectation Section**
+    - This section lists product and delivery information, service expectation etc. 
+    - This is valuable information for the user and will help them to decide if the SaS products fit their needs.
+    - The end of this section features the final call-to-action, redirecting the user to the contact page to purchase the product.
 
 Back to [Table of Contents](#table-of-contents)
 
