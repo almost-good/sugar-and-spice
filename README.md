@@ -103,7 +103,12 @@ You can find all wireframes here:
   - [Gallery Page](assets/docs/wireframes/gallery-mobile.png)
   - [Contact Page](assets/docs/wireframes/contact-mobile.png)
   - [Navigation](assets/docs/wireframes/navigation-mobile.png)
+ 
 ### **Colour Scheme**
+The design for the site is modern, with a deep, dark background and occasional pop of color used to brighten the overall experience. 
+<br><br>
+![Color-Wheel](assets/docs/images/color-wheel.png)
+<br><br>
 
 ### **Typography**
 
