@@ -34,6 +34,7 @@ Lastly, the site includes a gallery of previous works done, which can be used as
 - [Deployment](#deployment)
 - [Credits](#credits)
   - [Content](#content)
+  - [Images](#images)
 
 
 ## **Developer's Note**
@@ -211,6 +212,54 @@ Back to [Table of Contents](#table-of-contents)
 
 
 ### **Content**
-All Essential Oil content was sourced from [Sea Cliff Hemp NY](https://seacliffhempny.com) & [New Directions Aromatics](https://www.newdirectionsaromatics.com)
-<br>
+All Essential Oil content was sourced from [Sea Cliff Hemp NY](https://seacliffhempny.com) & [New Directions Aromatics](https://www.newdirectionsaromatics.com).
+
+### **Images**
+All images used were sourced from following sites:
+- [PXfuel](https://www.pxfuel.com/en/photos)
+  - **Home page**
+    - [Orange basket](https://www.pxfuel.com/en/free-photo-emaus)
+- [Unsplash](https://unsplash.com)
+  - **Home page**
+    - [Red roses](https://unsplash.com/photos/dt8Q85QOxJM)
+    - [Foggy pine forest](https://unsplash.com/photos/OYFHT4X5isg)
+  - **Scents page**
+    - [Jasmine flower](https://unsplash.com/photos/vkybvOiDqr0)
+  - **Gallery page**
+    - [Miniature candle](https://unsplash.com/photos/lV_1--cFJWo)
+- [Pexels](https://www.pexels.com)
+  - **Scents page**
+    - [Juniper berries](https://www.pexels.com/photo/unripe-berries-and-green-leaves-11429854)
+    - [Chamomile field](https://www.pexels.com/photo/cluster-of-daisies-699964)
+    - [Lavender flower](https://www.pexels.com/photo/selective-focus-photo-of-purple-petaled-plant-1381683)
+    - [Lemon branch](https://www.pexels.com/photo/shallow-focus-photography-of-yellow-lime-with-green-leaves-129574)
+    - [Geranium flower](https://www.pexels.com/photo/close-up-of-flowers-on-green-plant-5625901)
+    - [Lemongrass](https://www.pexels.com/photo/close-up-photo-of-lemongrass-6021461)
+    - [Pine branches](https://www.pexels.com/photo/green-pine-tree-12822973)
+    - [Orange branches](https://www.pexels.com/photo/orange-fruit-on-tree-3804878)
+    - [Roses](https://www.pexels.com/photo/red-roses-1187079)
+    - [Tangerine branch](https://www.pexels.com/photo/close-up-of-an-orange-on-a-tree-14766943)
+    - [Lime branch](https://www.pexels.com/photo/key-lime-growing-in-garden-8236016)
+  - **Gallery page**
+    - [Bubble candle](https://www.flickr.com/photos/67865224@N06/45700299704)
+    - [Body candle](https://www.flickr.com/photos/67865224@N06/45700299704)
+- [Flickr](https://www.flickr.com)
+  - **Scents page**
+    - [Cedarwood branch](https://www.flickr.com/photos/bambolia/5303050738)
+    - [Citronella flower](https://www.flickr.com/photos/susanchaffin/5596428956)
+    - [Cypress bud](https://www.flickr.com/photos/149505955@N06/46215502804)
+    - [Neroli flower](https://www.flickr.com/photos/easygiving/4025469058)
+    - [Sandalwood branches](https://www.flickr.com/photos/saltys_place/5989777724)
+  - **Gallery page**
+    - [Tree candle](https://www.flickr.com/photos/67865224@N06/45700299704)
+    - [Charmander candle](https://www.flickr.com/photos/pokemon4u/8391221832)
+- [PXhere](https://pxhere.com)
+  - **Gallery page**
+    - [Dripping red candle stick](https://pxhere.com/en/photo/817721)
+    - [Angel candle](https://pxhere.com/en/photo/374487)
+    - [Winged heart candle](https://pxhere.com/en/photo/1024272)
+- [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
+  - **Gallery page**
+    - [Egg candle](https://commons.wikimedia.org/wiki/File:Egg_candles_%287099864271%29.jpg)
+
 Back to [Table of Contents](#table-of-contents)
