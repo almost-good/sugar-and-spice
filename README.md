@@ -33,6 +33,7 @@ Lastly, the site includes a gallery of previous works done, which can be used as
   - [For Testing](#for-testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
+  - [Content](#content)
 
 
 ## **Developer's Note**
@@ -207,4 +208,9 @@ Back to [Table of Contents](#table-of-contents)
 
 
 ## **Credits**
+
+
+### **Content**
+All Essential Oil content was sourced from [Sea Cliff Hemp NY](https://seacliffhempny.com) & [New Directions Aromatics](https://www.newdirectionsaromatics.com)
+<br>
 Back to [Table of Contents](#table-of-contents)
