@@ -197,8 +197,17 @@ Back to [Table of Contents](#table-of-contents)
 
 
 ### **Languages**
+- HTML5 - Used for markup.
+- CSS3 - Used to provide styling.
 
 ### **Tools**
+- [VScode](https://code.visualstudio.com) - Used as the IDE. 
+- [Git](https://git-scm.com/) - Used for version control.
+- [GitHub](https://github.com) - Used for code hosting.
+- [Balsamiq](https://balsamiq.com) - Used to create wireframes.
+- [Font Awesome](https://fontawesome.com) - Used for icons.
+- [Adobe Express](https://www.adobe.com/express/create/logo) - Used to create logo.
+
 
 ### **For Testing**
 Back to [Table of Contents](#table-of-contents)
