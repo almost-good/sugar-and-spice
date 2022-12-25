@@ -38,6 +38,24 @@ body {
 /* --------------------------------------------- HEADER & NAVBAR */
 
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  height: 60px;
+}
+
+.navbar .nav-menu {
+  display: flex;
+}
+
+.navbar .nav-menu li {
+  padding-left: 10px;
+}
+
 a {
   color: #fdfdfd;
 }
