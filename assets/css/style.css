@@ -170,6 +170,9 @@ h1 {
 
 .aroma-list-container {
   display: flex;
+  width: 100vw;
+  height: 38vh;
+  overflow: hidden;
 }
 
 a {
