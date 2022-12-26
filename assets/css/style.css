@@ -181,6 +181,12 @@ h1 {
   width: 33%;
 }
 
+.aroma-list-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .aroma-list-container .aroma-title {
   position: absolute;
   bottom: 10%;
@@ -199,6 +205,5 @@ a {
 }
 
 img {
-  max-width: 100%; 
-  min-height: 100%; 
+
 }
