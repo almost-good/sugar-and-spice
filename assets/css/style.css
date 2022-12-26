@@ -34,14 +34,32 @@ body {
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 
 /* --------------------------------------------- HEADER & NAVBAR */
 
+.nav-container {
+  position: fixed;
+  height: 80px;
+  width: 100vw;
+  background-color: inherit;
+}
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
+
+  height: 80px;
+  padding: 0 50px;
 }
 
 .navbar .logo {
@@ -53,7 +71,7 @@ body {
 }
 
 .navbar .nav-menu li {
-  padding-left: 10px;
+  padding-left: 50px;
 }
 
 a {
