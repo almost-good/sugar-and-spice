@@ -46,7 +46,7 @@ ul {
 /* --------------------------------------------- HEADER & NAVBAR */
 
 .nav-container {
-  position: fixed;
+  position: sticky;
   height: 80px;
   width: 100vw;
   background-color: inherit;
