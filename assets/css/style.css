@@ -168,11 +168,24 @@ h1 {
 
 /* INDEX --------------------------------------- AROMA LIST SECTION */
 
+
 .aroma-list-container {
   display: flex;
   width: 100vw;
   height: 38vh;
   overflow: hidden;
+}
+
+.aroma-list-container .aroma-item {
+  position: relative;
+  width: 33%;
+}
+
+.aroma-list-container .aroma-title {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 10;
 }
 
 a {
