@@ -95,7 +95,7 @@ h1 {
   padding: 10vh 0;
 }
 
-.hero-text-container h2, 
+.hero-text-container h2,
 .hero-text-container p {
   font-size: 1.5rem;
   font-weight: 300;
@@ -139,7 +139,6 @@ h1 {
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
-  
 }
 
 .hero-text-container .btn a {
@@ -189,7 +188,7 @@ h1 {
   z-index: 11;
   width: 100%;
   height: 100%;
-  background-color: rgba(17,36,50, 0.7);
+  /*background-color: rgba(17,36,50, 0.7); -- COMMENTED OUT DURING DEVELOPMENT, WILL BECOME ACTIVE*/
 }
 
 .aroma-list-container img {
@@ -205,9 +204,9 @@ h1 {
   transform: translateX(-50%);
   z-index: 10;
 
-  font-size: 2.5rem;
-  font-weight: 700;
-  letter-spacing: 2px;
+  font-family: var(--font-headings);
+  font-size: 3rem;
+  letter-spacing: 7px;
   text-transform: uppercase;
 }
 
@@ -215,6 +214,3 @@ a {
   color: #fdfdfd;
 }
 
-img {
-
-}
