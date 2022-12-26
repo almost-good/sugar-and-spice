@@ -173,6 +173,7 @@ h1 {
   display: flex;
   width: 100vw;
   height: 38vh;
+  column-gap: 1px;
   overflow: hidden;
 }
 
