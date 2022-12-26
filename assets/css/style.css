@@ -156,8 +156,13 @@ h1 {
   font-style: italic;
 }
 
+.hero-text-container .aroma-link a {
+  color: #6b8292;
+}
+
 .hero-text-container .aroma-link i {
   padding-bottom: 2vh;
+  font-size: 1.5rem;
 }
 
 
