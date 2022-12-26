@@ -216,14 +216,24 @@ h1 {
 
 
 .order-recipe-container {
-  text-align: center;
   margin: 0 10vw;
+  padding-bottom: 10vh;
+  text-align: center;
 }
 
 .order-recipe-container h3 {
+  padding-bottom: 2vh;
   font-size: 2rem;
   font-weight: 400;
 }
+.order-recipe-container h3 .sas-highlight {
+  font-family: var(--font-highlight);
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: var(--highlight-secondary);
+  text-shadow: #000 2px 2px 20px;
+}
+
 
 .order-recipe-container > p {
   font-size: 1.3rem;
