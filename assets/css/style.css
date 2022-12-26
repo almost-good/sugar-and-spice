@@ -241,7 +241,36 @@ h1 {
   width: 20%;
 }
 
-a {
+.order-recipe .recipe-item i {
+  font-size: 4rem;
+}
+
+.order-recipe .recipe-item h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.order-recipe .recipe-item p {
+  line-height: 1.5;
+}
+
+.tag-container {
+
+}
+
+.tag-container .recipe-tag {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  border: solid 2px white;
+  border-radius: 50%;
+}
+
+.order-recipe .btn a {
+  border: #fdfdfd 2px solid;
   color: #fdfdfd;
+  font-size: 1.5rem;
 }
 
