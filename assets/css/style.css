@@ -212,11 +212,34 @@ h1 {
 }
 
 
-/* INDEX --------------------------------------- ORDER SECTION */
+/* INDEX --------------------------------------- ORDER RECIPE SECTION */
 
 
+.order-recipe-container {
+  text-align: center;
+  margin: 0 10vw;
+}
 
+.order-recipe-container h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
 
+.order-recipe-container > p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.order-recipe {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.order-recipe .recipe-item {
+  width: 20%;
+}
 
 a {
   color: #fdfdfd;
