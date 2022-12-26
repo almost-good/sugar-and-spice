@@ -105,11 +105,14 @@ h1 {
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
+}
 
+.hero-text-container .btn a {
   border: 2px solid #fff;
 }
 
 .hero-text-container .aroma-link {
+  text-align: center;
   font-weight: 300;
   font-style: italic;
 }
