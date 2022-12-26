@@ -36,12 +36,14 @@ body {
   font-size: 1rem;
 }
 
-a {
-  text-decoration: none;
-}
-
 ul {
   list-style: none;
+}
+
+/* Typography */
+
+a {
+  text-decoration: none;
 }
 
 h1 {
@@ -50,6 +52,15 @@ h1 {
   letter-spacing: 3px;
   text-transform: uppercase;
   text-align: center;
+}
+
+
+.sas-highlight {
+  font-family: var(--font-highlight);
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: var(--highlight-secondary);
+  text-shadow: #000 2px 2px 20px;
 }
 
 
@@ -109,14 +120,6 @@ h1 {
 
 .hero-text-container h2 {
   padding-bottom: 1vh;
-}
-
-.hero-text-container h2 .sas-highlight {
-  font-family: var(--font-highlight);
-  font-size: 2rem;
-  letter-spacing: 2px;
-  color: var(--highlight-secondary);
-  text-shadow: #000 2px 2px 20px;
 }
 
 .hero-text-container p {
@@ -226,14 +229,6 @@ h1 {
   font-size: 2rem;
   font-weight: 400;
 }
-.order-recipe-container h3 .sas-highlight {
-  font-family: var(--font-highlight);
-  font-size: 2rem;
-  letter-spacing: 2px;
-  color: var(--highlight-secondary);
-  text-shadow: #000 2px 2px 20px;
-}
-
 
 .order-recipe-container > p {
   font-size: 1.3rem;
