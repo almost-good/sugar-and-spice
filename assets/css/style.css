@@ -32,7 +32,6 @@ body {
   font-family: var(--font-text);
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.5;
 }
 
 a {
@@ -90,6 +89,10 @@ h1 {
 /* INDEX --------------------------------------- HERO TEXT SECTION */
 
 
+.hero-text-container {
+  padding: 10vh 0;
+}
+
 .hero-text-container h2, 
 .hero-text-container p {
   font-size: 1.5rem;
@@ -98,8 +101,17 @@ h1 {
   text-align: center;
 }
 
+.hero-text-container h1 {
+  padding-bottom: 2vh;
+}
+
+.hero-text-container p {
+  padding-bottom: 5vh;
+}
+
 .hero-text-container .btn {
   display: block;
+  padding-bottom: 7vh;
   text-align: center;
 
   font-size: 2rem;
@@ -115,6 +127,10 @@ h1 {
   text-align: center;
   font-weight: 300;
   font-style: italic;
+}
+
+.hero-text-container .aroma-link i {
+  padding-bottom: 2vh;
 }
 
 
