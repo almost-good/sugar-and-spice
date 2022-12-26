@@ -183,9 +183,15 @@ h1 {
 
 .aroma-list-container .aroma-title {
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   left: 50%;
+  transform: translateX(-50%);
   z-index: 10;
+
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 a {
