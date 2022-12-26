@@ -70,6 +70,25 @@ h1 {
   font-style: italic;
 }
 
+/* Buttons */
+
+.btn {
+  display: block;
+  padding-bottom: 7vh;
+
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn a {
+  padding: 10px 20px;
+  border-radius: 10px;
+  
+  background-color: var(--highlight-primary);
+  color: var(--background-primary);
+}
+
 
 /* --------------------------------------------- HEADER & NAVBAR */
 
@@ -142,21 +161,7 @@ h1 {
 }
 
 .hero-text-container .btn {
-  display: block;
-  padding-bottom: 7vh;
-  text-align: center;
-
   font-size: 1.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.hero-text-container .btn a {
-  padding: 10px 20px;
-  border-radius: 10px;
-  
-  background-color: var(--highlight-primary);
-  color: var(--background-primary);
 }
 
 .hero-text-container .aroma-link {
@@ -179,7 +184,7 @@ h1 {
 .aroma-list-container {
   display: flex;
   width: 100vw;
-  height: 38vh;
+  height: 48vh;
   column-gap: 1px;
   overflow: hidden;
   padding-bottom: 10vh;
@@ -279,23 +284,9 @@ h1 {
   font-size: 1.5rem;
 }
 
-.btn {
-  display: block;
-  padding-bottom: 7vh;
+.recipe-item .btn {
   padding-top: 2vh;
-  text-align: center;
-
   font-size: 1.1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.order-recipe .btn a {
-  padding: 10px 20px;
-  border-radius: 10px;
-  
-  background-color: var(--highlight-primary);
-  color: var(--background-primary);
 }
 
 .recipe-tag {
