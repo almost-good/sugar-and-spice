@@ -43,6 +43,14 @@ ul {
   list-style: none;
 }
 
+h1 {
+  font-family: var(--font-headings);
+  font-size: 3rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 
 /* --------------------------------------------- HEADER & NAVBAR */
 
@@ -77,6 +85,10 @@ ul {
 .navbar .nav-menu li {
   padding-left: 50px;
 }
+
+
+/* INDEX --------------------------------------- HERO TEXT SECTION */
+
 
 
 /* INDEX --------------------------------------- AROMA LIST SECTION */
