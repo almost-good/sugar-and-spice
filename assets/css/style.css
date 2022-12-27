@@ -6,7 +6,7 @@
 
 :root {
   --background-primary: #112432;
-  --background-secondary-darker: #0c1922;
+  --background-secondary-darker: #0e202c;
   --background-secondary-lighter: #183346;
   --text-primary: #fdfbfb;
   --highlight-primary: #f2c145;
@@ -47,6 +47,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--text-primary);
 }
 
 h1 {
@@ -62,7 +63,7 @@ h1 {
   font-size: 2rem;
   letter-spacing: 2px;
   color: var(--highlight-secondary);
-  text-shadow: #000 2px 2px 20px;
+  text-shadow: var(--background-secondary-darker) 2px 2px 20px;
 }
 
 .italic {
@@ -97,7 +98,9 @@ h1 {
   left: 0;
   height: 80px;
   width: 100vw;
-  background-color: inherit;
+  z-index: 10000;
+  background-color: var(--background-secondary-darker);
+  border-bottom: 1px solid var(--border);
 }
 
 .navbar {
@@ -132,16 +135,12 @@ h1 {
   background-color: var(--background-secondary-darker);
 
   text-align: center;
-  border-top: 2px solid var(--border);
+  border-top: 1px solid var(--border);
 }
 
 .footer-social {
   padding-bottom: 2vh;
   font-size: 2rem;
-}
-
-.footer-social a {
-  color: var(--text-primary);
 }
 
 .footer-social i {
