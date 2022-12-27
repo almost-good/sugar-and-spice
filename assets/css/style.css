@@ -441,3 +441,41 @@ h1 {
   border-radius: 3px;
 }
 
+
+/* --------------------------------------------- MEDIA QUERY */
+
+
+/* Tablet View */
+
+@media screen and (max-width: 750px) {
+  /* INDEX - Hero Text Section*/
+  .hero-text-container {
+    padding-bottom: 5vh;
+  }
+
+  .hero-text-container h1 {
+    padding-bottom: 5vh;
+    font-size: 3rem;
+  }
+
+  .hero-text-container h2, 
+  .hero-text-container p {
+    font-size: 1.3rem;
+  }
+
+  .hero-text-container h2 {
+    padding-bottom: 2vh;
+  }
+
+  .hero-text-container .sas-highlight {
+    font-size: 1.5rem;
+  }
+
+  .text-highlight {
+    display: block;
+  }
+
+  .aroma-link {
+    display: none;
+  }
+}
