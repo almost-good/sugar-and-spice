@@ -235,6 +235,10 @@ h1 {
   color: var(--text-secondary);
 }
 
+.hero-text-container .aroma-link a:hover {
+  color: var(--text-primary);
+}
+
 .hero-text-container .aroma-link i {
   padding-bottom: 2vh;
   font-size: 1.5rem;
