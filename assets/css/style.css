@@ -290,10 +290,11 @@ h1 {
   margin-bottom: 5vh;
   padding: 30px;
 
-  background-color: var(--background-secondary-lighter);
   font-size: 4rem;
   color: var(--highlight-primary);
-  border: 2px double var(--border);
+  text-shadow: -2px 2px 2px var(--text-primary);
+  border-bottom: 2px double var(--border);
+  border-left: 2px double var(--border);
   border-radius: 10px;
 }
 
