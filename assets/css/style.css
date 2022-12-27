@@ -138,8 +138,10 @@ h1 {
   height: 80px;
   width: 100vw;
   z-index: 10000;
+
   background-color: var(--background-secondary-darker);
   border-bottom: 1px solid var(--border);
+  overflow: hidden;
 }
 
 .navbar {
@@ -147,7 +149,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   align-content: center;
-
+  
   height: 80px;
   padding: 0 100px;
 }
@@ -385,6 +387,7 @@ h1 {
   width: 80%;
 
   text-align: center;
+  overflow-x: hidden;
 }
 
 .expectation-container h3 {
