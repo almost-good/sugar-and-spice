@@ -9,7 +9,7 @@
   --background-secondary-darker: #0e202c;
   --background-secondary-lighter: #183346;
   --text-primary: #fdfbfb;
-  --text-secondary: #6b8292;
+  --text-secondary: #859baa;
   --highlight-primary: #f2c145;
   --highlight-primary-brighter: #ffae00;
   --highlight-primary-dimmer: #805d07;
@@ -473,7 +473,6 @@ h1 {
   grid-row: span 2;
 }
 
-
 .images-container .grid-item-egg {
   grid-row: 3 / 4;
 }
@@ -494,6 +493,38 @@ h1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+
+/* GALLERY ------------------------------------- NOT SURE SECTION */
+
+
+.not-sure-container {
+  padding-bottom: 10vh;
+  text-align: center;
+}
+
+.not-sure-container h2 {
+  padding-bottom: 3vh;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.not-sure-container h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.not-sure-container h3 i {
+  padding-top: 5vh;
+}
+
+.not-sure-container p {
+  font-weight: 300;
+  font-style: italic;
+  color: var(--text-secondary);
 }
 
 
