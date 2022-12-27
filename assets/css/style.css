@@ -9,6 +9,7 @@
   --background-secondary-darker: #0e202c;
   --background-secondary-lighter: #183346;
   --text-primary: #fdfbfb;
+  --text-secondary: #6b8292;
   --highlight-primary: #f2c145;
   --highlight-secondary: #e14787;
   --border: #214057;
@@ -199,7 +200,7 @@ h1 {
 }
 
 .hero-text-container .aroma-link a {
-  color: #6b8292;
+  color: var(--text-secondary);
 }
 
 .hero-text-container .aroma-link i {
@@ -384,6 +385,10 @@ h1 {
 .expectation-wrapper .expectation-item-highlight {
   font-weight: 700;
   line-height: 3rem;
+}
+
+.expectation-container .italic li {
+  color: rgba(350, 350, 350, .7);
 }
 
 .expectation-container .btn a {
