@@ -11,6 +11,8 @@
   --text-primary: #fdfbfb;
   --text-secondary: #6b8292;
   --highlight-primary: #f2c145;
+  --highlight-primary-brighter: #ffae00;
+  --highlight-primary-dimmer: #805d07;
   --highlight-secondary: #e14787;
   --border: #214057;
 
@@ -53,7 +55,7 @@ a {
 
 a:focus-visible:not(.btn) {
   outline: none;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid var(--text-primary);
 }
 
 h1 {
@@ -100,16 +102,16 @@ h1 {
 }
 
 .btn a::selection {
-  color: #fff;
+  color: var(--text-primary);
 }
 
 .btn a:hover {
-  background-color: #eead07;
+  background-color: var(--highlight-primary-brighter);
   transition: 0.2s;
 }
 
 .btn a:active {
-  background-color: #805d07;
+  background-color: var(--highlight-primary-dimmer);
   transition: 0.3s;
 }
 
@@ -237,6 +239,7 @@ h1 {
 
 .hero-text-container .aroma-link a:hover {
   color: var(--text-primary);
+  transition: .3s;
 }
 
 .hero-text-container .aroma-link i {
