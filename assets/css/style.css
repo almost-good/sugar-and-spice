@@ -72,6 +72,16 @@ h1 {
   font-style: italic;
 }
 
+::selection {
+  background-color: var(--highlight-primary);
+  color: var(--background-primary);
+
+}
+
+.btn a::selection {
+  color: #fff;
+}
+
 /* Buttons */
 
 .btn {
