@@ -449,6 +449,14 @@ h1 {
 /* GALLERY ------------------------------------- IMAGES SECTION */
 
 
+.gallery-heading {
+  padding: 10vh 0;
+}
+
+.gallery-heading .text-highlight {
+  color: var(--highlight-primary);
+}
+
 .images-container {
   margin: auto auto;
   width: 80vw;
