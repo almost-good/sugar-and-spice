@@ -51,6 +51,11 @@ a {
   color: var(--text-primary);
 }
 
+a:focus-visible:not(.btn) {
+  outline: none;
+  border-bottom: 3px solid #fff;
+}
+
 h1 {
   font-family: var(--font-headings);
   font-size: 4rem;
@@ -108,6 +113,13 @@ h1 {
   transition: 0.3s;
 }
 
+.btn a:focus-visible {
+  outline: none;
+  box-sizing: border-box;
+  border-bottom: 3px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
 
 
 /* --------------------------------------------- HEADER & NAVBAR */
