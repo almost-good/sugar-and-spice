@@ -489,7 +489,7 @@ h1 {
 @media screen and (max-width: 480px) {
   /* INDEX - Hero Text Section*/
   .hero-text-container {
-    padding: 8vh 10px 0 10px;
+    padding: 8vh 10px 5vh 10px;
   }
   .hero-text-container h1 {
     font-size: 2rem;
