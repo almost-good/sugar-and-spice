@@ -75,11 +75,6 @@ h1 {
 ::selection {
   background-color: var(--highlight-primary);
   color: var(--background-primary);
-
-}
-
-.btn a::selection {
-  color: #fff;
 }
 
 /* Buttons */
@@ -98,6 +93,21 @@ h1 {
   background-color: var(--highlight-primary);
   color: var(--background-primary);
 }
+
+.btn a::selection {
+  color: #fff;
+}
+
+.btn a:hover {
+  background-color: #eead07;
+  transition: 0.2s;
+}
+
+.btn a:active {
+  background-color: #805d07;
+  transition: 0.3s;
+}
+
 
 
 /* --------------------------------------------- HEADER & NAVBAR */
@@ -384,7 +394,8 @@ h1 {
   padding: 20px;
   border-left: var(--highlight-primary) solid 2px;
   border-bottom: var(--highlight-primary) solid 2px;
-  border-radius: 20px;
+  border-radius: 20px;  
+
 }
 
 .expectation-wrapper .expectation-item {
