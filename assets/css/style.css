@@ -454,7 +454,7 @@ h1 {
 @media screen and (max-width: 750px) {
   /* INDEX - Hero Text Section*/
   .hero-text-container {
-    padding: 0 20px 5vh 20px;
+    padding: 10vh 20px 5vh 20px;
   }
 
   .hero-text-container h1 {
