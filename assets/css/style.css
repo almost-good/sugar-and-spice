@@ -123,6 +123,38 @@ h1 {
 }
 
 
+/* --------------------------------------------- FOOTER */
+
+
+.footer-container {
+  padding: 2vh 0;
+  width: 100vw;
+  background-color: var(--background-secondary-darker);
+
+  text-align: center;
+  border-top: 2px solid var(--border);
+}
+
+.footer-social {
+  padding-bottom: 2vh;
+  font-size: 2rem;
+}
+
+.footer-social a {
+  color: var(--text-primary);
+}
+
+.footer-social i {
+  padding: 0 4vw;
+}
+
+.footer-copyright {
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+
 /* INDEX --------------------------------------- HERO TEXT SECTION */
 
 
