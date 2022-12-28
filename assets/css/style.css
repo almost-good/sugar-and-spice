@@ -566,6 +566,16 @@ h1 {
 /* --------------------------------------------- MEDIA QUERY */
 
 
+/* Touch Devices */
+
+@media (hover: none) {
+  /* INDEX - Aroma List Section */
+  .aroma-list-container .aroma-item {
+    opacity: 0.9;
+  }
+}
+
+
 /* Tablet View */
 
 @media screen and (max-width: 750px) {
@@ -604,12 +614,13 @@ h1 {
   .aroma-list-container .aroma-item {
     opacity: 0.9;
   }
-  
+
   .aroma-item .aroma-transition:hover,
   .aroma-item .aroma-transition:active {
     height: 100%;
   }
 }
+
 
 /* Mobile View */
 
