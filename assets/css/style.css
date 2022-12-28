@@ -302,7 +302,7 @@ h1 {
 }
 
 .aroma-item .gradient-floral {
-  background-image: linear-gradient(to top, rgba(63, 63, 42, 1), rgba(63, 63, 42, 0));
+  background-image: linear-gradient(to top, rgba(53, 57, 39, 1), rgba(63, 63, 42, 0));
 }
 
 .aroma-item .gradient-citrus {
@@ -663,8 +663,14 @@ h1 {
   .aroma-list-container .aroma-item {
     height: 33.3%;
     width: 100%;
+    border-bottom: 2px solid var(--text-primary);
+    
   }
   
+  .aroma-list-container .aroma-item:first-child {
+    border-top: 1px solid var(--text-primary);
+  }
+
   .aroma-list-container .aroma-title {
     font-size: 2rem;
   }
