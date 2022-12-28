@@ -658,13 +658,14 @@ h1 {
 /* Mobile View */
 
 @media screen and (max-width: 480px) {
+  /* GLOBAL */
+  h1 {
+    font-size: 2rem;
+  }
+
   /* INDEX - Hero Text Section*/
   .hero-text-container {
     padding: 8vh 10px 7vh 10px;
-  }
-
-  .hero-text-container h1 {
-    font-size: 2rem;
   }
 
   .hero-text-container h2, 
@@ -702,4 +703,17 @@ h1 {
   .aroma-list-container .aroma-title {
     font-size: 2rem;
   }
+
+  /* GALLERY - Images Section */
+  .images-container {
+    grid-auto-rows: 30vh;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2vh;
+  }
+  
+  .images-container .grid-item-egg {
+    grid-row: 7 / 8;
+  }
 }
+
+
