@@ -485,7 +485,7 @@ h1 {
 
 
 .gallery-heading {
-  padding: 10vh 0;
+  padding: 10vh 2vh 15vh 2vh;
 }
 
 .gallery-heading .text-highlight {
@@ -494,7 +494,6 @@ h1 {
 
 .images-container {
   margin: auto auto;
-  padding-top: 5vh;
   padding-bottom: 10vh;
   width: 75vw;
 
@@ -584,6 +583,11 @@ h1 {
 /* Tablet View */
 
 @media screen and (max-width: 750px) {
+  /* GLOBAL */
+  h1 {
+    font-size: 3rem;
+  }
+
   /* INDEX - Hero Text Section*/
   .hero-text-container {
     padding: 10vh 20px 5vh 20px;
@@ -591,7 +595,6 @@ h1 {
 
   .hero-text-container h1 {
     padding-bottom: 5vh;
-    font-size: 3rem;
   }
 
   .hero-text-container h2, 
@@ -623,6 +626,17 @@ h1 {
   .aroma-item .aroma-transition:hover,
   .aroma-item .aroma-transition:active {
     height: 100%;
+  }
+
+  /* GALLERY - Images Section */
+  .gallery-heading {
+    padding-bottom: 10vh;
+  }
+  
+  .images-container {
+    width: 95%;
+    grid-auto-rows: 25vh;
+    gap: 5px;
   }
 }
 
