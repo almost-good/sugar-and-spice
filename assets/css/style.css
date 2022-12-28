@@ -588,6 +588,10 @@ h1 {
     font-size: 3rem;
   }
 
+  .sas-highlight {
+    font-size: 1.5rem;
+  }
+
   /* INDEX - Hero Text Section*/
   .hero-text-container {
     padding: 10vh 20px 5vh 20px;
@@ -604,10 +608,6 @@ h1 {
 
   .hero-text-container h2 {
     padding-bottom: 2vh;
-  }
-
-  .hero-text-container .sas-highlight {
-    font-size: 1.5rem;
   }
 
   .text-highlight {
@@ -637,6 +637,20 @@ h1 {
     width: 95%;
     grid-auto-rows: 25vh;
     gap: 5px;
+  }
+
+  /* GALLERY - Not Sure Section */
+  .not-sure-container h3 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.3;
+  }
+  .not-sure-container h3 i {
+    font-size: 1.1rem;
+  }
+  .not-sure-container p {
+    padding-top: 1vh;
+    font-size: .9rem;
   }
 }
 
