@@ -632,20 +632,40 @@ h1 {
 @media screen and (max-width: 480px) {
   /* INDEX - Hero Text Section*/
   .hero-text-container {
-    padding: 8vh 10px 5vh 10px;
+    padding: 8vh 10px 7vh 10px;
   }
+
   .hero-text-container h1 {
     font-size: 2rem;
   }
+
   .hero-text-container h2, 
   .hero-text-container p {
     font-size: 1.2rem;
   }
+
   .hero-text-container .text-highlight {
     font-size: 1.3rem;
   }
+
   .hero-text-container .btn {
     font-size: 1.2rem;
     padding-bottom: 2vh;
+  }
+
+  /* INDEX - Aroma List Section */
+  .aroma-list-container {
+    height: 60vh;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .aroma-list-container .aroma-item {
+    height: 33.3%;
+    width: 100%;
+  }
+  
+  .aroma-list-container .aroma-title {
+    font-size: 2rem;
   }
 }
