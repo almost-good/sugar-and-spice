@@ -569,6 +569,11 @@ h1 {
 /* Touch Devices */
 
 @media (hover: none) {
+  /* INDEX - Hero Text Section*/
+  .hero-text-container .aroma-link a {
+    color: var(--text-primary);
+  }
+
   /* INDEX - Aroma List Section */
   .aroma-list-container .aroma-item {
     opacity: 0.9;
