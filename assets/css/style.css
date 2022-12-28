@@ -122,9 +122,9 @@ h1 {
 .btn a:focus-visible {
   outline: none;
   box-sizing: border-box;
-  border-bottom: 3px solid #fff;
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
+  border-bottom: 3px solid var(--text-primary);
+  border-left: 2px solid var(--text-primary);
+  border-right: 2px solid var(--text-primary);
 }
 
 
@@ -302,7 +302,7 @@ h1 {
 }
 
 .aroma-item .gradient-floral {
-  background-image: linear-gradient(to top, rgba(53, 57, 39, 1), rgba(63, 63, 42, 0));
+  background-image: linear-gradient(to top, rgba(43, 61, 49, 1), rgba(63, 63, 42, 0));
 }
 
 .aroma-item .gradient-citrus {
@@ -666,7 +666,7 @@ h1 {
     border-bottom: 2px solid var(--text-primary);
     
   }
-  
+
   .aroma-list-container .aroma-item:first-child {
     border-top: 1px solid var(--text-primary);
   }
