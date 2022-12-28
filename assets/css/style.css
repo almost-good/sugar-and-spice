@@ -34,6 +34,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 30vh;
 }
 
 body {
@@ -340,7 +341,8 @@ h1 {
 
 
 .order-recipe-container {
-  margin: 0 8vw;
+  width: 80%;
+  margin: auto auto;
   padding: 5vh 0 10vh 0;
   text-align: center;
 }
@@ -357,17 +359,19 @@ h1 {
 }
 
 .order-recipe {
-  display: flex;
-  justify-content: space-around;
-  align-items:baseline;
-  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 10px;
 }
 
 .order-recipe .recipe-item {
-  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.recipe-item i {
+.recipe-item i:not(.fa-arrow-down) {
   margin-bottom: 5vh;
   padding: 30px;
 
@@ -388,29 +392,45 @@ h1 {
 }
 
 .recipe-item p {
-  margin: 0 20px;
   line-height: 1.5;
+  font-weight: 300;
+}
+
+.recipe-item p:last-of-type {
+  padding-bottom: 2vh;
 }
 
 .recipe-item .sas-highlight {
   font-size: 1.5rem;
 }
 
-.recipe-item .btn {
-  padding-top: 2vh;
-  font-size: 1.1rem;
+.recipe-item .recipe-item-container {
+  padding-bottom: 2vh;
 }
 
-.recipe-tag {
+.recipe-item-container .recipe-tag {
   display: inline-block;
   margin: 5px;
-  padding: 10px;
-
+  padding: 5px;
+  
   background-color: var(--background-secondary-lighter);
   border: 2px solid var(--border);
-  border-radius: 10px;
-  font-size: 1.1rem;
+  border-radius: 5px;
+
+  font-size: 1rem;
+  line-height: 1;
 }
+
+.recipe-item .recipe-item-arrow {
+  padding-bottom: 2vh;
+  color: var(--text-secondary);
+}
+
+.recipe-item .btn {
+  font-size: 1.1rem;
+  padding: 2vh 0;
+}
+
 
 
 /* INDEX --------------------------------------- EXPECTATION SECTION */
