@@ -423,6 +423,14 @@ h1 {
 
 .recipe-item .recipe-item-arrow {
   padding-bottom: 2vh;
+  
+  flex-grow: 1;
+  align-self:center;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
   color: var(--text-secondary);
 }
 
