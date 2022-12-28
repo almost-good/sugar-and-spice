@@ -435,7 +435,7 @@ h1 {
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  gap: 20px;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -500,7 +500,7 @@ h1 {
   display: grid;
   grid-auto-rows: 35vh;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px 2vw;
+  gap: 10px 2vw;
 }
 
 .images-container .grid-double-row {
@@ -632,7 +632,7 @@ h1 {
   .gallery-heading {
     padding-bottom: 10vh;
   }
-  
+
   .images-container {
     width: 95%;
     grid-auto-rows: 25vh;
