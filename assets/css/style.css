@@ -599,7 +599,7 @@ h1 {
 
 
 .contact-container {
-  margin: 10vh 5vh 0;
+  margin: 10vh 5vw 0;
 }
 
 .contact-container .text-highlight {
@@ -749,6 +749,12 @@ h1 {
   .aroma-list-container .aroma-item {
     opacity: 0.9;
   }
+
+  /* CONTACT US */
+  .form-info .reason-container .reason-btn:active {
+    background-color: var(--highlight-secondary);
+  }
+  
 }
 
 
@@ -892,7 +898,48 @@ h1 {
     font-size: .9rem;
   }
 
+  /* CONTACT US */
+  .contact-container {
+    margin: 10vh 5vw 0;
+  }
+
+  .contact-container > p {
+    font-size: 1.3rem;
+  }
+
+  .contact-container .contact-form {
+    padding-top: 8vh;
+    width: 100%;
+    min-width: fit-content;
+    max-width: 100%;
+  }
+
+  .contact-form .form-info {
+    width: 80%;
+  }
+
+  .contact-form .form-info .info-label,
+  .contact-form .form-info .info-field,
+  .contact-form .content-field {
+    font-size: 1.2rem;
+  }
+
+  .form-info .reason-container .reason-btn {
+    width: 49%;
+    padding: 10px 5px;
+    line-height: 1.5rem;
+    letter-spacing: 1px; 
+  }
+
+  .reason-radio:checked + .reason-btn {
+    font-size: 1.1rem;
+    line-height: 1.5rem;  
+  }
   
+  .btn-send {
+    margin-top: 2vh;
+    font-size: 1.3rem;
+  }
 }
 
 
@@ -935,7 +982,7 @@ h1 {
     width: 100%;
     border: 1px solid var(--text-primary);
   }
-  
+
   .aroma-list-container .aroma-item:nth-of-type(2) {
     border-top: 4px solid var(--text-primary);
     border-bottom: 4px solid var(--text-primary);
