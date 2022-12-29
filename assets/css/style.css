@@ -54,6 +54,24 @@ ul {
   list-style: none;
 }
 
+/* Scrollbar */
+
+body::-webkit-scrollbar {
+  width: .7em;
+}
+
+body::-webkit-scrollbar-button {
+  background-color: var(--background-primary);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--text-secondary);
+}
+
+body::-webkit-scrollbar-track {
+ background-color: transparent;
+}
+
 /* Typography */
 
 a {
@@ -150,6 +168,7 @@ h1 {
 
   background-color: var(--background-secondary-darker);
   border-bottom: 1px solid var(--border);
+
   overflow: hidden;
 }
 
