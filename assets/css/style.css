@@ -101,7 +101,8 @@ h1 {
   text-transform: uppercase;
 }
 
-.btn a {
+.btn a,
+.btn-send {
   padding: 10px 20px;
   border-radius: 10px;
   
@@ -113,17 +114,20 @@ h1 {
   color: var(--text-primary);
 }
 
-.btn a:hover {
+.btn a:hover,
+.btn-send:hover {
   background-color: var(--highlight-primary-brighter);
   transition: 0.2s;
 }
 
-.btn a:active {
+.btn a:active,
+.btn-send:active {
   background-color: var(--highlight-primary-dimmer);
   transition: 0.3s;
 }
 
-.btn a:focus-visible {
+.btn a:focus-visible,
+.btn-send:focus-visible {
   outline: none;
   box-sizing: border-box;
   border-bottom: 3px solid var(--text-primary);
@@ -612,7 +616,6 @@ h1 {
 .contact-form {
   margin: auto auto;
   padding-top: 10vh;
-  padding-bottom:10vh;
   width: 40vw;
   min-width: 600px;
   max-width: 800px;
@@ -716,6 +719,16 @@ h1 {
   font-weight: 300;
   font-style: italic;
   text-align: center;
+}
+
+.btn-send {
+  margin-top: 1vh;
+  width: 100%;
+
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  border-right: 5px solid var(--background-primary);
+  border-radius: 2px;
 }
 
 
