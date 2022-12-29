@@ -42,18 +42,16 @@
           
           <p class="info-label">Reason</p>
           <div class="reason-container">
-            <input class="reason-radio" type="radio" id="buy" name="reason" value="Android Development">
+            <input class="reason-radio" type="radio" id="buy" name="reason" value="Purchase" required>
             <label class="reason-btn" for="buy">Purchase</label>
 
-            <input class="reason-radio" type="radio" id="info" name="reason" value="iOS Development">
+            <input class="reason-radio" type="radio" id="info" name="reason" value="Information">
             <label class="reason-btn" for="info">Information </label>
           </div>
         </div>
       
-        <textarea name="order" id="order" cols="30" rows="10" 
-          placeholder="Place your request to order a candle here. 
-          We will shortly get back to you and guide you through the entire process!">
-        </textarea>
+        <textarea class="content-field" name="order" id="order" cols="30" rows="10" required
+          placeholder="Place your request here and we will shortly get back to you!"></textarea>
 
         <button type="submit">Send</button>
       </form>
