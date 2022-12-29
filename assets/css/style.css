@@ -420,7 +420,7 @@ h1 {
 
 .recipe-item .recipe-item-arrow {
   margin-top: 2vh;
-  
+
   flex-grow: 1;
   align-self:center;
 
@@ -586,6 +586,14 @@ h1 {
   font-weight: 300;
   font-style: italic;
   color: var(--text-secondary);
+}
+
+
+/* CONTACT US ---------------------------------- ENTIRE PAGE*/
+
+
+.contact-container {
+  
 }
 
 
