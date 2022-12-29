@@ -209,7 +209,7 @@ h1 {
 
 
 .hero-text-container {
-  padding: 10vh 0;
+  padding-top: 10vh;
 }
 
 .hero-text-container h2,
@@ -220,16 +220,12 @@ h1 {
   text-align: center;
 }
 
-.hero-text-container h1 {
-  padding-bottom: 2vh;
-}
-
 .hero-text-container h2 {
-  padding-bottom: 1vh;
+  margin-top: 2vh;
 }
 
 .hero-text-container p {
-  padding-bottom: 7vh;
+  margin-top: 1vh;
 }
 
 .hero-text-container .text-highlight {
@@ -241,11 +237,12 @@ h1 {
 }
 
 .hero-text-container .btn {
-  padding-bottom: 7vh;
+  margin-top: 7vh;
   font-size: 1.5rem;
 }
 
 .hero-text-container .aroma-link {
+  margin-top: 7vh;
   text-align: center;
 }
 
@@ -295,12 +292,12 @@ h1 {
   bottom: 0;
   height: 100%;
   width: 100%;
-  transition: .5s ease-in-out;
+  transition: .5s all;
 }
 
 .aroma-item .aroma-transition:hover,
 .aroma-item .aroma-transition:active {
-  height: 45vh;
+  height: 120%;
 }
 
 .aroma-item .gradient {
@@ -447,23 +444,23 @@ h1 {
 /* INDEX --------------------------------------- EXPECTATION SECTION */
 
 
-.expectation-container { 
-  padding: 10vh 0;
+.expectation-container {
+  padding-top: 15vh;
   margin: auto auto;
   width: 80%;
+  max-width: 1300px;
 
   text-align: center;
-  overflow-x: hidden;
 }
 
 .expectation-container h3 {
-  padding-bottom: 5vh;
   font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .expectation-wrapper {
+  margin-top: 5vh;
   padding: 5%;
 
   display: grid;
@@ -480,14 +477,15 @@ h1 {
   background-color: var(--background-secondary-lighter);
   border: 2px solid var(--border);
   border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
 }
 
 .expectation-wrapper div {
-  padding: 20px;
+  padding: 20px 10px 30px 30px;
   border-left: var(--highlight-primary) solid 2px;
   border-bottom: var(--highlight-primary) solid 2px;
-  border-radius: 20px;  
-
+  border-radius: 20px;
+  text-align: start; 
 }
 
 .expectation-wrapper .expectation-item {
@@ -501,7 +499,8 @@ h1 {
 }
 
 .expectation-container .italic li {
-  color: rgba(350, 350, 350, .7);
+  color: var(--text-secondary);
+  padding-left: 20px;
 }
 
 .expectation-container .btn a {
@@ -775,20 +774,17 @@ h1 {
 
   /* INDEX - Hero Text Section*/
   .hero-text-container {
-    padding: 10vh 20px 5vh 20px;
+    padding: 10vh 20px 0;
   }
 
-  .hero-text-container h1 {
-    padding-bottom: 5vh;
+  .hero-text-container h2 {
+    margin-top: 5vh;
+    padding-bottom: 2vh;
   }
 
   .hero-text-container h2, 
   .hero-text-container p {
     font-size: 1.3rem;
-  }
-
-  .hero-text-container h2 {
-    padding-bottom: 2vh;
   }
 
   .text-highlight {
@@ -876,6 +872,39 @@ h1 {
     text-align: start;
   }
 
+  /* INDEX - Expectation Section */
+  .expectation-container { 
+    padding-top: 10vh;
+    width: 90%;
+  }
+
+  .expectation-container h3 {
+    font-size: 2rem;
+  }
+
+  .expectation-wrapper {
+    padding: 5vh 5vw;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.1rem;
+  }
+
+  .expectation-wrapper div {
+    padding: 20px 10px 20px 20px;
+  }
+
+  .expectation-wrapper .expectation-item {
+    grid-row: 1 / 3;
+  }
+
+  .expectation-wrapper .expectation-item-highlight {
+    line-height: 2rem;
+  }
+
+  .expectation-container .btn a {
+    margin-top: 2vh;
+    font-size: 1.3rem;
+  }
+
   /* GALLERY - Images Section */
   .images-container {
     width: 95%;
@@ -894,7 +923,7 @@ h1 {
     padding-bottom: 1vh;
     font-size: 1.1rem;
   }
-  
+
   .not-sure-container p {
     font-size: .9rem;
   }
@@ -954,21 +983,17 @@ h1 {
 
   /* INDEX - Hero Text Section*/
   .hero-text-container {
-    padding: 8vh 10px 7vh 10px;
+    padding: 8vh 10px 0;
   }
 
   .hero-text-container h2, 
-  .hero-text-container p {
+  .hero-text-container p,
+  .hero-text-container .btn {
     font-size: 1.2rem;
   }
 
   .hero-text-container .text-highlight {
     font-size: 1.3rem;
-  }
-
-  .hero-text-container .btn {
-    font-size: 1.2rem;
-    padding-bottom: 2vh;
   }
 
   /* INDEX - Aroma List Section */
@@ -1015,11 +1040,50 @@ h1 {
 
   .recipe-item .btn {
     margin-top: 4vh;
+    font-size: 1rem;
     text-align: center;
   }
 
   .recipe-item .btn:last-of-type {
     margin-bottom: 2vh;
+  }
+
+  /* INDEX - Expectation Section */
+  .expectation-container { 
+    width: 100%;
+  }
+
+  .expectation-container h3 {
+    padding: 0 10vw;
+    font-size: 1.5rem;
+  }
+
+  .expectation-wrapper {
+    padding: 5vh 1vw;
+    grid-template-columns: 1fr;
+    border-left: none;
+    border-right: none;
+  }
+
+  .expectation-wrapper div {
+    margin: auto auto;
+    padding: 10px 10px;
+    width: 80%;
+    text-align: center; 
+    border-left: none;
+  }
+
+  .expectation-wrapper .expectation-hide {
+    display: none;
+  }
+
+  .expectation-wrapper .expectation-item {
+    grid-row: 1 / 2;
+  }
+
+  .expectation-container .btn a {
+    width: 90%;
+    font-size: 1rem;
   }
 
   /* GALLERY - Images Section */
