@@ -593,7 +593,69 @@ h1 {
 
 
 .contact-container {
-  
+  margin: 10vh 5vh 0;
+}
+
+.contact-container .text-highlight {
+  color: var(--highlight-primary);
+}
+
+.contact-container > p {
+  padding-top: 2vh;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.contact-form {
+  margin: auto auto;
+  padding-top: 10vh;
+  padding-bottom:10vh;
+  width: 40vw;
+  min-width: 500px;
+  max-width: 800px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form .form-info {
+  margin: auto auto;
+  padding-bottom: 5vh;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-info .info-label {
+  padding-top: 10px;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.form-info .info-field {
+  margin-top: 1px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 10px 10px 5px;
+
+  color: var(--border);
+
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right, var(--highlight-secondary), var(--background-primary) 90%) 1;
+}
+
+.form-info .info-field:focus-visible {
+  outline: none;
+
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right, var(--highlight-primary), var(--background-primary) 90%) 1;
 }
 
 

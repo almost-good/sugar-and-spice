@@ -32,24 +32,24 @@
       <h1>Get in touch with <span class="text-highlight">our experts</span></h1>
       <p>If you are ready to order or just curious about our products this is the place to be!</p>
       
-      <form>
-        <div class="personal-container">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required>
+      <form class="contact-form">
+        <div class="form-info">
+          <label class="info-label" for="name">Name</label>
+          <input class="info-field" type="text" id="name" name="name" required>
 
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
+          <label class="info-label" for="email">Email</label>
+          <input class="info-field" type="email" id="email" name="email" required>
+          
+          <p class="info-label">Reason</p>
+          <div>
+            <input type="radio" id="buy" name="reason" value="Android Development">
+            <label for="buy">Purchase</label>
+
+            <input type="radio" id="info" name="reason" value="iOS Development">
+            <label for="info">Information </label>
+          </div>
         </div>
       
-        <p>Reason</p>
-        <div>
-          <input type="radio" id="buy" name="reason" value="Android Development">
-          <label for="buy">Purchase</label>
-
-          <input type="radio" id="info" name="reason" value="iOS Development">
-          <label for="info">Information </label>
-        </div>
-
         <textarea name="order" id="order" cols="30" rows="10" 
           placeholder="Place your request to order a candle here. 
           We will shortly get back to you and guide you through the entire process!">
