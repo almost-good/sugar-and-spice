@@ -29,15 +29,26 @@
 
     <!-- Contact -->
     <main class="contact-container">
-      <h1>Get in touch with our experts</h1>
+      <h1>Get in touch with <span class="text-highlight">our experts</span></h1>
       <p>If you are ready to order or just curious about our products this is the place to be!</p>
       
       <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
+        <div class="personal-container">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+      
+        <p>Reason</p>
+        <div>
+          <input type="radio" id="buy" name="reason" value="Android Development">
+          <label for="buy">Purchase</label>
+
+          <input type="radio" id="info" name="reason" value="iOS Development">
+          <label for="info">Information </label>
+        </div>
 
         <textarea name="order" id="order" cols="30" rows="10" 
           placeholder="Place your request to order a candle here. 
