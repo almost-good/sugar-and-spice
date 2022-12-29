@@ -795,7 +795,36 @@ h1 {
   .aroma-list-container .aroma-title {
     font-size: 2rem;
   }
-  
+
+  /* INDEX - Order Recipe Section */
+  .order-recipe-container {
+    width: 85%;
+  }
+
+  .order-recipe .recipe-item {
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+
+  .recipe-item h4 {
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+  }
+
+  .recipe-item p,
+  .recipe-item .recipe-tag-container {
+    width: 100%;
+  }
+
+  .recipe-item .btn {
+    margin-top: 4vh;
+    text-align: center;
+  }
+
+  .recipe-item .btn:last-of-type {
+    margin-bottom: 2vh;
+  }
+
   /* GALLERY - Images Section */
   .images-container {
     grid-auto-rows: 30vh;
