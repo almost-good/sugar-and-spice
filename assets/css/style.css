@@ -103,6 +103,7 @@ h1 {
 
 .btn a,
 .btn-send {
+  display: inline-block;
   padding: 10px 20px;
   border-radius: 10px;
   
@@ -1069,9 +1070,25 @@ h1 {
   .reason-radio:checked + .reason-btn {
     font-size: 1rem;
   }
-  
+
   .btn-send {
     font-size: 1.2rem;
   }
 }
 
+
+/* Extra small devices */
+
+@media screen and (max-width: 250px) {
+
+  /* CONTACT US */
+  .form-info .reason-container {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .form-info .reason-container .reason-btn {
+    width: 100%;
+  }
+}
