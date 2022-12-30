@@ -832,6 +832,69 @@ h1 {
 }
 
 
+/* SCENTS -------------------------------------- AROMA TYPES */
+
+
+.aroma-types-container {
+  margin: auto auto;
+  width: 50%;
+  max-width: 800px;
+}
+
+.aroma-types-container .aroma-type {
+  padding-top: 10vh;
+}
+
+.aroma-type .aroma-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aroma-type .aroma-title h3 {
+  font-family: var(--font-headings);
+  font-size: 3rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--highlight-primary);
+}
+
+.aroma-type .aroma-title .aroma-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.aroma-type .aroma-title .aroma-links a {
+  margin: 10px;
+  padding: 2px;
+  text-shadow: 0px 0px 8px var(--text-primary);
+  transition: .2s ease-in-out;
+}
+
+.aroma-type .aroma-title .aroma-links a:hover,
+.aroma-type .aroma-title .aroma-links .active {
+  font-size: 2.5rem;
+}
+
+.aroma-type .aroma-title .aroma-links .floral-icon {
+  color: rgb(241, 41, 91);
+}
+
+.aroma-type .aroma-title .aroma-links .citrus-icon {
+  color: #f8e321;
+}
+
+.aroma-type .aroma-title .aroma-links .woody-icon {
+  color: #3ce7ae;
+}
+
+.aroma-type .aroma-title .aroma-links .type-x-icon {
+  color: #fa45eb;
+}
+
+
 /* GALLERY ------------------------------------- IMAGES SECTION */
 
 
@@ -1713,6 +1776,15 @@ h1 {
 /* Extra small devices */
 
 @media screen and (max-width: 250px) {
+  /* SCENTS - Something More Section */
+  .something-more-wrapper {
+    width: 98%;
+  }
+  
+  .something-more-wrapper h2 {
+    font-size: 1.2rem;
+    letter-spacing: 0;
+  }
 
   /* CONTACT US */
   .form-info .reason-container {
@@ -1723,15 +1795,5 @@ h1 {
 
   .form-info .reason-container .reason-btn {
     width: 100%;
-  }
-
-  /* SCENTS - Something More Section */
-  .something-more-wrapper {
-    width: 98%;
-  }
-  
-  .something-more-wrapper h2 {
-    font-size: 1.2rem;
-    letter-spacing: 0;
   }
 }
