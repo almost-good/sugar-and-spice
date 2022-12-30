@@ -617,8 +617,9 @@ h1 {
 
 
 .top-picks-container {
-  margin-top: 10vh;
-  width: 100%;
+  margin: auto auto;
+  padding-top: 10vh;
+  width: 90%;
 }
 
 .top-picks-container h1 .text-highlight{
@@ -626,9 +627,8 @@ h1 {
 }
 
 .top-picks-container .top-picks-wrapper {
-  margin: auto auto;
-  padding-top: 10vh;
-  width: 90%;
+  margin-top: 10vh;
+  width: 100%;
   max-width: 1300px;
 
   display: grid;
@@ -1618,6 +1618,47 @@ h1 {
 
   .contact-form .content-field::placeholder {
     font-size: 1rem;
+  }
+
+  /* SCENTS - Top Picks Section*/
+  .top-picks-container {
+    padding-top: 8vh;
+  }
+
+  .top-picks-container .top-picks-wrapper {
+    margin-top: 8vh;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 20vh;
+  }
+
+  .top-picks-container .top-picks-quote {
+    font-size: 1.1rem;
+  }
+
+  .top-picks-container .top-picks-quote .quote-br {
+    display: none;
+  }
+  
+  .floral-six {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  .citrus-five {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  .woody-three {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .floral-three,
+  .floral-four,
+  .citrus-one,
+  .citrus-four,
+  .woody-one,
+  .woody-six {
+    display: none;
   }
 }
 
