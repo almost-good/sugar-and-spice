@@ -831,6 +831,7 @@ h1 {
   font-style: italic;
 }
 
+
 /* GALLERY ------------------------------------- IMAGES SECTION */
 
 
@@ -1442,6 +1443,19 @@ h1 {
   .woody-four,
   .woody-five {
     display: none;
+  }
+
+  /* SCENTS - Something More Section */
+  
+  .something-more-wrapper {
+    width: 90%;
+  }
+  .something-more-wrapper h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .something-more-wrapper p {
+    font-size: 1.3rem;
   }
 }
 
