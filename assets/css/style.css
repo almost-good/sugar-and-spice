@@ -34,7 +34,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 30vh;
+  scroll-padding-top: 10vh;
 }
 
 body {
@@ -65,7 +65,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 body::-webkit-scrollbar-track {
- background-color: transparent;
+  background-color: transparent;
 }
 
 /* Typography */
@@ -837,8 +837,8 @@ h1 {
 
 .aroma-types-container {
   margin: auto auto;
-  width: 50%;
-  max-width: 800px;
+  width: 70%;
+  max-width: 700px;
 }
 
 .aroma-types-container .aroma-type {
@@ -875,11 +875,11 @@ h1 {
 
 .aroma-type .aroma-title .aroma-links a:hover,
 .aroma-type .aroma-title .aroma-links .active {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
 .aroma-type .aroma-title .aroma-links .floral-icon {
-  color: rgb(241, 41, 91);
+  color: rgb(247, 57, 105);
 }
 
 .aroma-type .aroma-title .aroma-links .citrus-icon {
