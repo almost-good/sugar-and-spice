@@ -546,27 +546,49 @@ h1 {
 }
 
 .top-picks-container .top-picks-wrapper {
-  width: 70%;
   margin: auto auto;
   padding-top: 10vh;
-  padding-bottom: 10vh;
+  width: 90%;
+  max-width: 1300px;
+
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows: auto;
-  gap: 20px;
-
+  grid-auto-rows: 1fr;
+  gap: 15px;
 }
 
-.top-floral,
-.top-citrus,
-.top-woody {
+.top-picks-wrapper .top-floral,
+.top-picks-wrapper .top-citrus,
+.top-picks-wrapper .top-woody {
   position: relative;
-}
-
-.top-picks-container .top-picks-wrapper > div {
+  min-height: 12vh;
   width: 100%;
   height: 100%;
-  border: 2px solid white;
+  border: 1px solid var(--text-secondary);
+  box-shadow: 2px 2px 80px #000;
+}
+
+.top-picks-wrapper .grid-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.top-picks-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.top-picks-container .top-picks-quote {
+  margin-top: 5vh;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  color: var(--text-secondary);
 }
 
 /* GRID ITEMS */
@@ -577,8 +599,8 @@ h1 {
 }
 
 .floral-two {
-  grid-column: 2 / 4;
-  grid-row: 1 / 3;
+  grid-column: 5 / 6;
+  grid-row: 1 / 2;
 }
 
 .floral-three {
@@ -587,8 +609,8 @@ h1 {
 }
 
 .floral-four {
-  grid-column: 5 / 6;
-  grid-row: 1 / 2;
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
 }
 
 .floral-five {
@@ -663,25 +685,14 @@ h1 {
 
 /* GRID ITEMS FINISH */
 
+
+
+
+
 .something-more-container {
   margin-top: 10vh;
 }
 
-.top-picks-container .grid-img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-}
-
-
-
-.top-picks-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 /* GALLERY ------------------------------------- IMAGES SECTION */
 
@@ -939,6 +950,14 @@ h1 {
 
   .sas-highlight {
     font-size: 1.5rem;
+  }
+
+  /* FOOTER */
+  .footer-social {
+    font-size: 1.7rem;
+  }
+  .footer-copyright {
+    font-size: 1.2rem;
   }
 
   /* INDEX - Hero Text Section*/
