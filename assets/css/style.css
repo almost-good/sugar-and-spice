@@ -292,7 +292,7 @@ h1 {
 }
 
 .footer-social i:hover {
-  color: #f2c145;
+  color: var(--highlight-primary);
   transition: .3s ease-in-out;
 }
 
@@ -408,7 +408,7 @@ h1 {
 }
 
 .aroma-item .gradient-floral {
-  background-image: linear-gradient(to top, rgba(43, 61, 49, 1), rgba(63, 63, 42, 0));
+  background-image: linear-gradient(to top, rgb(75, 92, 80, 1), rgba(75, 92, 80, 0));
 }
 
 .aroma-item .gradient-citrus {
