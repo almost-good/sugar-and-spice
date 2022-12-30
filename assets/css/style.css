@@ -283,8 +283,17 @@ h1 {
   font-size: 2rem;
 }
 
+.footer-social a {
+  margin: 0 4vw;
+}
+
 .footer-social i {
-  padding: 0 4vw;
+  padding: 2px;
+}
+
+.footer-social i:hover {
+  color: #f2c145;
+  transition: .3s ease-in-out;
 }
 
 .footer-copyright {
@@ -1303,7 +1312,7 @@ h1 {
   h1 {
     font-size: 2rem;
   }
-  
+
   /* NAVBAR */
   .navbar {
     padding: 0 10px;
