@@ -633,33 +633,71 @@ h1 {
 
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows: 1fr;
-  gap: 15px;
+  grid-auto-rows: 12vh;
+  gap: 20px;
 }
 
 .top-picks-wrapper .top-floral,
 .top-picks-wrapper .top-citrus,
 .top-picks-wrapper .top-woody {
   position: relative;
-  min-height: 12vh;
+  transition: all .3s ease-in-out;
+  opacity: 1;
+}
+
+.top-floral p,
+.top-citrus p,
+.top-woody p{
+  position: absolute;
+  left: 0;
+  top: 50%;
   width: 100%;
-  height: 100%;
-  border: 1px solid var(--text-secondary);
-  box-shadow: 2px 2px 80px #000;
+  transform: translateY(-50%);
+  z-index: 10;
+  
+  font-family: var(--font-headings);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  
+  opacity: 0;
 }
 
 .top-picks-wrapper .grid-img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
   height: 100%;
   width: 100%;
+  border: 1px solid var(--text-secondary);
+  opacity: 1;
+  transition: .3s ease-in-out;
 }
 
-.top-picks-wrapper img {
+.top-picks-wrapper .grid-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.top-picks-wrapper .top-floral:hover,
+.top-picks-wrapper .top-citrus:hover,
+.top-picks-wrapper .top-woody:hover {
+  opacity: 1;
+}
+
+.top-picks-wrapper .top-floral:hover p,
+.top-picks-wrapper .top-citrus:hover p,
+.top-picks-wrapper .top-woody:hover p {
+  opacity: 1;
+  transition: .5s;
+}
+
+.top-picks-wrapper .top-floral:hover .grid-img,
+.top-picks-wrapper .top-citrus:hover .grid-img,
+.top-picks-wrapper .top-woody:hover .grid-img {
+  opacity: .5;
+  transform: scale(1.06);
 }
 
 .top-picks-container .top-picks-quote {
