@@ -23,6 +23,10 @@
           <li><a href="gallery.html">Gallery</a></li>
           <li class="active"><a href="contact.html">Contact Us</a></li>
         </ul>
+
+        <div class="hamburger-menu">
+          <i class="fa-solid fa-bars hamburger-icon"></i>
+        </div>
       </nav>
     </header>
     <!-- /.Main navigation -->
@@ -71,5 +75,17 @@
       <p class="footer-copyright">Copyright © Marja Marinic</p>
     </footer>
     <!-- /.Footer -->
+
+    <script>
+      const hamburger = document.querySelector(".hamburger-menu");
+      const hamburgerIcon = document.querySelector(".hamburger-icon");
+      const navMenu = document.querySelector(".nav-menu");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("hamburger-active");
+        navMenu.classList.toggle("nav-menu-active");
+        hamburgerIcon.classList.toggle("fa-xmark");
+      })
+    </script>
   </body>
 </html>

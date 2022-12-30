@@ -11,20 +11,24 @@
   <body>
     <!-- Main navigation -->
     <header class="nav-container">
-      <nav class="navbar">
-
-        <a href="index.html">
-          <img class="logo" src="assets/images/sas-logo.png" alt="Sugar and spice logo." />
-        </a>
-
-        <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li class="active"><a href="scents.html">Scents</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav>
-    </header>
+      <header class="nav-container">
+        <nav class="navbar">
+  
+          <a href="index.html">
+            <img class="logo" src="assets/images/sas-logo.png" alt="Sugar and spice logo." />
+          </a>
+  
+          <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="scents.html">Scents</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+  <!--          <div class="hamburger-menu">
+            <i class="fa-solid fa-bars hamburger-icon"></i>
+          </div>-->
+        </nav>
+      </header>
     <!-- /.Main navigation -->
 
     <!-- Top picks -->
@@ -357,5 +361,18 @@
       <p class="footer-copyright">Copyright © Marja Marinic</p>
     </footer>
     <!-- /.Footer -->
+    <!--
+          <script>
+      const hamburger = document.querySelector(".hamburger-menu");
+      const hamburgerIcon = document.querySelector(".hamburger-icon");
+      const navMenu = document.querySelector(".nav-menu");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("hamburger-active");
+        navMenu.classList.toggle("nav-menu-active");
+        hamburgerIcon.classList.toggle("fa-xmark");
+      })
+    </script>-->
+
   </body>
 </html>
