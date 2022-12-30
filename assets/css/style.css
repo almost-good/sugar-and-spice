@@ -837,7 +837,7 @@ h1 {
 
 .aroma-types-container {
   margin: auto auto;
-  width: 70%;
+  width: 80%;
   max-width: 700px;
 }
 
@@ -847,11 +847,11 @@ h1 {
 
 .aroma-type .aroma-title {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
-.aroma-type .aroma-title h3 {
+.aroma-title h3 {
   font-family: var(--font-headings);
   font-size: 3rem;
   letter-spacing: 5px;
@@ -859,41 +859,94 @@ h1 {
   color: var(--highlight-primary);
 }
 
-.aroma-type .aroma-title .aroma-links {
+.aroma-title .aroma-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 2rem;
 }
 
-.aroma-type .aroma-title .aroma-links a {
+.aroma-title .aroma-links a {
   margin: 10px;
   padding: 2px;
-  text-shadow: 0px 0px 8px var(--text-primary);
+  text-shadow: 0px 0px 6px var(--text-primary);
   transition: .2s ease-in-out;
 }
 
-.aroma-type .aroma-title .aroma-links a:hover,
-.aroma-type .aroma-title .aroma-links .active {
+.aroma-title .aroma-links a:hover,
+.aroma-title .aroma-links .active {
   font-size: 2.8rem;
 }
 
-.aroma-type .aroma-title .aroma-links .floral-icon {
+.aroma-title .aroma-links .floral-icon {
   color: rgb(247, 57, 105);
 }
 
-.aroma-type .aroma-title .aroma-links .citrus-icon {
+.aroma-title .aroma-links .citrus-icon {
   color: #f8e321;
 }
 
-.aroma-type .aroma-title .aroma-links .woody-icon {
+.aroma-title .aroma-links .woody-icon {
   color: #3ce7ae;
 }
 
-.aroma-type .aroma-title .aroma-links .type-x-icon {
+.aroma-title .aroma-links .type-x-icon {
   color: #fa45eb;
 }
 
+.aroma-type .aroma-body {
+  margin-top: 2vh;
+  padding: 0 50px;
+
+  background-color: var(--background-secondary-lighter);
+  border: 2px 2px 2px var(--border);
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #000;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.aroma-body .aroma-question-mark {
+  margin-top: 7vh;
+  font-size: 3rem;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.aroma-body .aroma-description {
+  margin-top: 5vh;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.aroma-body .aroma-tag-container {
+  margin: auto auto;
+  padding: 5vh 0 7vh 0;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: 30px;
+
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+
+.aroma-body .aroma-tag-container li {
+  padding: 5px 15px;
+  letter-spacing: 2px;
+  border-bottom: 2px solid var(--text-secondary);
+  border-radius: 30px;
+}
+
+.aroma-body .aroma-tag-container .aroma-hash {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--highlight-primary);
+}
 
 /* GALLERY ------------------------------------- IMAGES SECTION */
 
