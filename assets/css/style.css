@@ -552,6 +552,7 @@ h1 {
   font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
+  text-shadow: 2px 2px 2px var(--highlight-secondary);
 }
 
 .expectation-wrapper {
@@ -798,16 +799,37 @@ h1 {
   grid-row: 4 / 6;
 }
 
-/* GRID ITEMS FINISH */
 
-
-
+/* SCENTS -------------------------------------- SOMETHING MORE SECTION  */
 
 
 .something-more-container {
   margin-top: 10vh;
+  padding: 10vh 0;
+  background-color: var(--background-secondary-lighter);
 }
 
+.something-more-wrapper {
+  margin: auto auto;
+  width: 70%;
+  max-width: 1300px;
+  text-align: center;
+}
+
+.something-more-wrapper h2 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px var(--highlight-secondary);
+}
+
+.something-more-wrapper p {
+  padding-top: 5vh;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: italic;
+}
 
 /* GALLERY ------------------------------------- IMAGES SECTION */
 
