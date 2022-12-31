@@ -978,7 +978,7 @@ h1 {
 }
 
 .aroma-list-citrus li:nth-child(even) {
-  background-color: rgb(248, 227, 33, .6);
+  background-color: rgb(248, 227, 33, .4);
 }
 
 .aroma-list-woody li:nth-child(even) {

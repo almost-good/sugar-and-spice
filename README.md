@@ -207,7 +207,12 @@ Back to [Table of Contents](#table-of-contents)
   - There are 6 warnings present due to the use of css variables, and 4 more due to scrollbar styling.
   - ![Css Validation Result](assets/docs/images/w3c-css.jpg)
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse)
-  - Completed for each page
+  - Completed for each page.
+  - **Index desktop**
+    - ![Desktop Lighthouse](assets/docs/images/lighthouse-desktop.jpg)
+  - **Index mobile**
+    -
+
 
 ### **Feature Testing**
 
@@ -242,6 +247,7 @@ Back to [Table of Contents](#table-of-contents)
 ### **For Testing**
 - [W3C Markup](https://validator.w3.org/nu/) - Used for markup validation.
 - [W3C CSS](https://jigsaw.w3.org/css-validator) - Used for CSS validation.
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse) - Used for accessibility testing.
 
 Back to [Table of Contents](#table-of-contents)
 
