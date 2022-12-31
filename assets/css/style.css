@@ -475,7 +475,7 @@ h1 {
 .recipe-item i:not(.fa-arrow-down) {
   padding: 30px;
   font-size: 4rem;
-  color: var(--highlight-primary-brighter);
+  color: var(--highlight-primary);
   text-shadow: -4px 2px 3px var(--text-primary);
   border-bottom: 2px double var(--border);
   border-left: 2px double var(--border);
@@ -1385,7 +1385,7 @@ h1 {
   .order-recipe .recipe-item {
     display: grid;
     grid-template-columns: 40% 55%;
-    grid-template-rows:min-content;
+    grid-template-rows: min-content;
     gap: 0 5vw;
   }
 
@@ -1571,8 +1571,8 @@ h1 {
   .aroma-type .aroma-body {
     border-radius: 2px;
   }
-  
-  .aroma-col-span-tablet {
+
+  .aroma-body .aroma-tag-container .aroma-col-span-tablet {
     grid-column: span 2;
   }
 
@@ -1841,8 +1841,8 @@ h1 {
   .woody-six {
     display: none;
   }
+
   /* SCENTS - Something More Section */
-  
   .something-more-wrapper {
     width: 95%;
   }
@@ -1853,6 +1853,43 @@ h1 {
   }
 
   .something-more-wrapper p {
+    font-size: 1.1rem;
+  }
+
+  /* SCENTS - Aroma Types Section */
+  .aroma-type .aroma-title {
+    flex-direction: column;
+  }
+  
+  .aroma-body .aroma-description {
+    font-size: 1rem;
+  }
+
+  .aroma-body .aroma-tag-container {
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 1.1rem;
+  }
+
+  .aroma-body .aroma-tag-container li {
+    padding: 5px 0;
+    border-radius: 8px;
+  }
+
+  .aroma-body .aroma-tag-container .aroma-hash {
+    display: block;
+  }
+
+  .aroma-body .aroma-tag-container .aroma-col-span,
+  .aroma-body .aroma-tag-container .aroma-col-span-tablet {
+    grid-column: 1 / 2;
+  }
+
+  .aroma-col-d-none {
+    display: none;
+  }
+
+  .aroma-type .aroma-list {
+    grid-template-columns: repeat(1, 1fr);
     font-size: 1.1rem;
   }
 
@@ -1926,6 +1963,36 @@ h1 {
   .something-more-wrapper h2 {
     font-size: 1.2rem;
     letter-spacing: 0;
+  }
+
+  /* SCENTS - Aroma Types Section */
+  .aroma-types-container {
+    width: 100%;
+  }
+
+  .aroma-title .aroma-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.2rem;
+  }
+
+  .aroma-title .aroma-links a:hover,
+  .aroma-title .aroma-links .active {
+    font-size: 1.5rem;
+  }
+
+  .aroma-type .aroma-body {
+    padding: 0 5px;
+  }
+
+  .aroma-body .aroma-tag-container li {
+    border: none;
+    padding: 0;
+    letter-spacing: 0;
+  }
+
+  .aroma-list li {
+    padding: 20px 0;
   }
 
   /* CONTACT US */
