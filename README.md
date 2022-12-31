@@ -206,7 +206,8 @@ Back to [Table of Contents](#table-of-contents)
   - Completed with no errors.
   - There are 6 warnings present due to the use of css variables, and 4 more due to scrollbar styling.
   - ![Css Validation Result](assets/docs/images/w3c-css.jpg)
-
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse)
+  - Completed for each page
 
 ### **Feature Testing**
 
