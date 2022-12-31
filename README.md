@@ -85,6 +85,7 @@ Back to [Table of Contents](#table-of-contents)
 
 
 ### **Initial Concept**
+The Initial concept for the site was a clean dark design with occasional splashes of color. The site, while seemingly simple, is full of small details which enrich the design overall. 
 
 ### **Wireframes**
 Wireframes are created using **Balsamiq** for organizational purposes. They were used for the initial concept only. The final product contains some design differences but still remain heavily influenced by the initial concept.
@@ -245,11 +246,15 @@ All features were tested one by one.
   - **Gallery page** is used to showcase work already done.
 11. I want to be able to contact site owners so I can get more information or make an order.
   - The user can visit **contact page** and choose either to make a purchase or to request more information.
-  
+
 Back to [Table of Contents](#table-of-contents)
 
 
 ## **Bugs**
+There is one known bug that I tried to resolve, unsuccessfully. 
+On mobile and tablet devices, the navbar is collapsed into a hamburger menu. During the activation of the hamburger menu, the navigation links slide left to right. 
+The issue is: that when the hamburger menu active state finishes, the nav menu items should slide out the way they slid in, but they disappear instantly.
+
 Back to [Table of Contents](#table-of-contents)
 
 
