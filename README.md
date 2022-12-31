@@ -199,6 +199,14 @@ Back to [Table of Contents](#table-of-contents)
 ### **Devices and Browsers**
 
 ### **Validators**
+- [W3C Markup](https://validator.w3.org/nu/)
+  - Completed with no errors for each page.
+  - ![Marukup Validation Result](assets/docs/images/w3c-markup.jpg)
+- [W3C CSS](https://jigsaw.w3.org/css-validator)
+  - Completed with no errors.
+  - There are 6 warnings present due to the use of css variables, and 4 more due to scrollbar styling.
+  - ![Css Validation Result](assets/docs/images/w3c-css.jpg)
+
 
 ### **Feature Testing**
 
@@ -231,6 +239,9 @@ Back to [Table of Contents](#table-of-contents)
 - [Am I Responsive](https://ui.dev/amiresponsive) - Used to create website showcase photo on top of the README.
 
 ### **For Testing**
+- [W3C Markup](https://validator.w3.org/nu/) - Used for markup validation.
+- [W3C CSS](https://jigsaw.w3.org/css-validator) - Used for CSS validation.
+
 Back to [Table of Contents](#table-of-contents)
 
 
