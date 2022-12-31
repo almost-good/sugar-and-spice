@@ -934,12 +934,20 @@ h1 {
   font-style: italic;
   text-align: center;
 }
-
+/*
+#type-citrus .aroma-body .aroma-tag-container {
+  grid-template-columns: repeat(3, max-content);
+}
+*/
 .aroma-body .aroma-tag-container li {
   padding: 5px 15px;
   letter-spacing: 2px;
   border-bottom: 2px solid var(--text-secondary);
   border-radius: 30px;
+}
+
+.aroma-body .aroma-tag-container .aroma-col-span {
+  grid-column: span 2;
 }
 
 .aroma-body .aroma-tag-container .aroma-hash {
