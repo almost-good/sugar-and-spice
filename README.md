@@ -216,15 +216,19 @@ Back to [Table of Contents](#table-of-contents)
 ### **Languages**
 - HTML5 - Used for markup.
 - CSS3 - Used to provide styling.
+- [JS](https://www.javascript.com) - Used for navigation.
 
 ### **Tools**
-- [VScode](https://code.visualstudio.com) - Used as the IDE. 
+- [VScode](https://code.visualstudio.com) - Used as the IDE.
 - [Git](https://git-scm.com/) - Used for version control.
 - [GitHub](https://github.com) - Used for code hosting.
 - [Balsamiq](https://balsamiq.com) - Used to create wireframes.
+- [Google Fonts](https://fonts.google.com) - Used for fonts.
 - [Font Awesome](https://fontawesome.com) - Used for icons.
+- [Photoresizer](https://www.photoresizer.com) - Used to resize the imgages and to compress them.
 - [Adobe Express](https://www.adobe.com/express/create/logo) - Used to create logo.
-
+- [Colormind](http://colormind.io) - Used to create color palette.
+- [Am I Responsive](https://ui.dev/amiresponsive) - Used to create website showcase photo on top of the README.
 
 ### **For Testing**
 Back to [Table of Contents](#table-of-contents)
