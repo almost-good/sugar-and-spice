@@ -127,8 +127,6 @@ Back to [Table of Contents](#table-of-contents)
 
 
 ### **Existing Features**
-
-### **Features Left to Implement**
 - **Features shared between all pages:**
   - **Navigation**
     - Fully responsive navigation bar placed horizontally for desktop and tablet devices. For a mobile view, the navigation links are accessed through a hamburger menu in the vertical direction.
@@ -139,9 +137,15 @@ Back to [Table of Contents](#table-of-contents)
       - Scents page
       - Gallery page
       - Contact page
+    - ![Navigation](assets/docs/images/features-navigation.jpg)
   - **Footer**
     - SaS dedicated footer to their developer, aka me.
     - Footer is placed at the bottom of the site and includes Copyrights and the developer's social media links, GitHub and LinkedIn.
+    - ![Footer](assets/docs/images/features-footer.jpg)
+
+### **Features Left to Implement**
+
+
 - **Home Page**
   - **Header**
     - Header contains the title of the page together with two different calls to action.
