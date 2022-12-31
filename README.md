@@ -5,6 +5,11 @@ Sugar and Spice, or *SaS*, features a "recipe" on how to order a candle, as it i
 Users can also view all essential oils available for candle mixtures, a bit of information about them, and the most popular scents which are updated monthly.
 Lastly, the site includes a gallery of previous works done, which can be used as inspiration for coming up with new interesting candle shapes.
 
+View live site here - [Sugar and Spice](https://almost-good.github.io/sugar-and-spice/index.html)
+<br><br>
+![Responsive Site](assets/docs/images/am-i-responsive.jpg)
+<br><br>
+
 
 ## **Table of Contents**
 
