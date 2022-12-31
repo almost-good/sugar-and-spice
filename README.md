@@ -197,6 +197,8 @@ Back to [Table of Contents](#table-of-contents)
 
 
 ### **Devices and Browsers**
+The website was tested on iPhone 13 pro, Huawei p30 Lite and Huawei p30 Pro mobile devices. For larger screens, Dell 17-inch screen laptop and Dell 14-inch screen laptop were used.
+Google Chrome, Firefox, Microsoft Edge, Opera and Safari are browsers used for testing. All tests passed, and the website performed as intended. 
 
 ### **Validators**
 - [W3C Markup](https://validator.w3.org/nu/)
@@ -213,10 +215,37 @@ Back to [Table of Contents](#table-of-contents)
   - **Index mobile**
     - ![Mobile Lighthouse](assets/docs/images/lighthouse-mobile.jpg)
 
+### Feature Testing
+All features were tested one by one.
 
-### **Feature Testing**
+- Links are fully functional and accessible.
+- Forms require validation and won't be submitted if there are empty required fields.
+- Website effects are performing as expected.
 
-### **User Story Testing**
+### User Story Testing
+1. I want to have a clear sense of what the site is about.
+  - The website clearly states what it's about as soon as the user lands on the page.
+2. I want to be able to easily navigate the site and in an intuitive way.
+  - Navigation used on the website follows familiar web navigation patterns.
+3. I want to interact with a page in a way that I am already accustomed to.
+  - All interactive elements are designed to follow familiar web patterns.
+4. I want to be able to view the site on a device of my choosing.
+  - The website is fully responsive and accessible.
+5. I want to know what I should do to do to order a candle.
+  - **Order recipe section** is designed to answer how to order a candle.
+6. I want to know what kind of product I can expect.
+  - The user can visit **expectation section**, and if there are more questions, the user can **get in touch** with candle developers directly.
+7. I want to check out what kind of candle scents they are currently offering.
+  - The **scents page** was designed to contain all information about different types of aromas.
+8. I want to check out which scents are most popular.
+  - The user can see the most popular scents displayed in the **top picks section**.
+9. I want to educate myself in regard to different scents and see what they are about.
+  - The user can browse through **scents page** and will indeed find all they need.
+10. I want to see what kind of candles they have already done.
+  - **Gallery page** is used to showcase work already done.
+11. I want to be able to contact site owners so I can get more information or make an order.
+  - The user can visit **contact page** and choose either to make a purchase or to request more information.
+  
 Back to [Table of Contents](#table-of-contents)
 
 
