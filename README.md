@@ -87,7 +87,7 @@ Back to [Table of Contents](#table-of-contents)
 ### **Initial Concept**
 
 ### **Wireframes**
-Wireframes are created using Balsamiq for organizational purposes. They were used for the initial concept only. The final product contains some design differences but still remain heavily influenced by the initial concept.
+Wireframes are created using **Balsamiq** for organizational purposes. They were used for the initial concept only. The final product contains some design differences but still remain heavily influenced by the initial concept.
 <br><br>
   
 ![Home-Desktop View Wireframe](assets/docs/wireframes/home-desktop.png)
@@ -118,7 +118,7 @@ The design for the site is modern, with a deep, dark background and occasional p
 <br><br>
 
 ### **Typography**
-There are three different font styles used on the page. Open Sans was selected for most of the page due to its readability, League Gothic for significant headings and Pacifico for notable little highlights. I also included websafe fallback fonts, followed by the generic fonts.
+There are three different font styles used on the page. **Open Sans** was selected for most of the page due to its readability, **League Gothic** for significant headings and **Pacifico** for notable little highlights. I also included websafe fallback fonts, followed by the generic fonts.
 
 Back to [Table of Contents](#table-of-contents)
 
