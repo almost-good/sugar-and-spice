@@ -211,7 +211,7 @@ Back to [Table of Contents](#table-of-contents)
   - **Index desktop**
     - ![Desktop Lighthouse](assets/docs/images/lighthouse-desktop.jpg)
   - **Index mobile**
-    -
+    - ![Mobile Lighthouse](assets/docs/images/lighthouse-mobile.jpg)
 
 
 ### **Feature Testing**
