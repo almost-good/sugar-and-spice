@@ -142,26 +142,27 @@ Back to [Table of Contents](#table-of-contents)
     - SaS dedicated footer to their developer, aka me.
     - Footer is placed at the bottom of the site and includes Copyrights and the developer's social media links, GitHub and LinkedIn.
     - ![Footer](assets/docs/images/features-footer.jpg)
-
-### **Features Left to Implement**
-
-
 - **Home Page**
   - **Header**
     - Header contains the title of the page together with two different calls to action.
     - 1st CTA is targeted towards the site's main function which is the sale of the product. The user is able to get in touch with SaS experts and order a candle.
-    - 2nd CTA links to the Scents page, so the user can check out the different essential oils we are using in our blends. 
+    - 2nd CTA links to the different Aroma types, just below, so the user can check out the different essential oils we are using in our blends. 
     - Header is designed so the user can immediately order products or continue exploring the site.
+    - ![Header](assets/docs/images/features-header.jpg)
   - **Aroma List Section**
     - The Aroma List Section includes three stunning images of the different aroma types available on website.
     - This section shows users what types of fragrance we have available and it invites them to read more about each one.
+    - ![Aroma List](assets/docs/images/features-aroma-list.jpg)
   - **Order Recipe Section**
     - Order Recipe Section contains step-by-step instructions on how to order a product. Each step opens the door to more exploration, with the last inviting the user to purchase the product.
     - This section is very important because it prompts the user to investigate what would be best for them so that we can make an outstanding product for them.
+    - ![Order Recipe](assets/docs/images/features-recipe.jpg)
   - **Expectation Section**
     - This section lists product and delivery information, service expectation etc. 
     - This is valuable information for the user and will help them to decide if the SaS products fit their needs.
     - The end of this section features the final call-to-action, redirecting the user to the contact page to purchase the product.
+    - ![Expectation](assets/docs/images/features-expectation.jpg)
+### **Features Left to Implement**
 - **Scents Page**
   - **Top Picks Section**
     - Top Picks Section showcases the most popular scents from each group of fragrances. This section is updated every month.
