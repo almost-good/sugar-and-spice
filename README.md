@@ -43,7 +43,7 @@ View live site here - [Sugar and Spice](https://almost-good.github.io/sugar-and-
 
 
 ## **Developer's Note**
-Sugar and Spice project is created as a **Portfolio Project** for Code Institute Full Stack Software Developer program. 
+Sugar and Spice project is created as a **Portfolio Project** for Code Institute Full Stack Software Developer program.
 The project showcases my skills in HTML and CSS, which I acquired as a Code Institute student.
 
 Please **note:** This website is purely fictional, and the company in question does not exist. Although I enjoy candles myself, I am in no way an expert, *so I would advise against using this site as a primary reference for candle-related information*.
@@ -58,7 +58,7 @@ Back to [Table of Contents](#table-of-contents)
 As the business:
 1. We want to attract customers with our modern design.
 2. We want an accessible website for any of our potential customers.
-3. We want to clarify what the customer can expect from us. 
+3. We want to clarify what the customer can expect from us.
 4. We want to help the customer find the perfect scent for them by providing them with information about the different scents we offer.
 5. We want to show the customer portfolio of our previous work.
 6. We want to make the ordering process simple for the customer.
@@ -146,7 +146,7 @@ Back to [Table of Contents](#table-of-contents)
   - **Header**
     - Header contains the title of the page together with two different calls to action.
     - 1st CTA is targeted towards the site's main function which is the sale of the product. The user is able to get in touch with SaS experts and order a candle.
-    - 2nd CTA links to the different Aroma types, just below, so the user can check out the different essential oils we are using in our blends. 
+    - 2nd CTA links to the different Aroma types, just below, so the user can check out the different essential oils we are using in our blends.
     - Header is designed so the user can immediately order products or continue exploring the site.
     - ![Header](assets/docs/images/features-header.jpg)
   - **Aroma List Section**
@@ -158,14 +158,14 @@ Back to [Table of Contents](#table-of-contents)
     - This section is very important because it prompts the user to investigate what would be best for them so that we can make an outstanding product for them.
     - ![Order Recipe](assets/docs/images/features-recipe.jpg)
   - **Expectation Section**
-    - This section lists product and delivery information, service expectation etc. 
+    - This section lists product and delivery information, service expectation etc.
     - This is valuable information for the user and will help them to decide if the SaS products fit their needs.
     - The end of this section features the final call-to-action, redirecting the user to the contact page to purchase the product.
     - ![Expectation](assets/docs/images/features-expectation.jpg)
 - **Scents Page**
   - **Top Picks Section**
     - Top Picks Section showcases the most popular scents from each group of fragrances. This section is updated every month.
-    - It's constructed as a grid of images with a different layout for mobile, tablet and desktop devices. Each grid item has its name displayed, enabling the user to differentiate between different aromas. 
+    - It's constructed as a grid of images with a different layout for mobile, tablet and desktop devices. Each grid item has its name displayed, enabling the user to differentiatebetween different aromas.
     - Grid items have two different states.
       - During the first state, they display the image of aroma type.
       - Second state, the focused one, displays the name of the aroma type.
@@ -177,16 +177,18 @@ Back to [Table of Contents](#table-of-contents)
     - The Aroma Types Section contains four different aroma types, with their general descriptions and traits, together with an extensive list of every fragrance available to choose from. 
     - All aroma types are interlinked, allowing for easy navigation between them.
     - ![Aroma Type](assets/docs/images/features-aroma-type.jpg)
-
-### **Features Left to Implement**
-
 - **Gallery Page**
-  - Gallery Page is used for showcasing the previous work done by the Sugar and Spice company. 
-  - Images follow a specific layout, so the final look is coherent. 
-  - Mobile layout has been adjusted so the images can remain visible on smaller devices. 
+  - Gallery Page is used for showcasing the previous work done by the Sugar and Spice company.
+  - Images follow a specific layout, so the final look is coherent.
+  - Mobile layout has been adjusted so the images can remain visible on smaller devices.
+  - ![Gallery](assets/docs/images/features-gallery.jpg)
 - **Contact Page**
   - Contact Page is the final page of the site. It enables users to get in touch with our experts, whether they seek more information regarding the products or wish to buy them.
-  - Contact Page features a standard contact form, including the name, email and content fields. 
+  - Contact Page features a standard contact form, including the name, email and content fields.
+  - ![Contact Page](assets/docs/images/features-contact.jpg)
+
+### **Features Left to Implement**
+- Enable effect when user closes hamburger menu for the removal of the navigation links. The effect should be the same sliding animation as the one that shows up when the user opens the hamburger menu.
 
 Back to [Table of Contents](#table-of-contents)
 
