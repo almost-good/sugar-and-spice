@@ -832,7 +832,7 @@ h1 {
 }
 
 
-/* SCENTS -------------------------------------- AROMA TYPES */
+/* SCENTS -------------------------------------- AROMA TYPES SECTION */
 
 
 .aroma-types-container {
@@ -1543,6 +1543,58 @@ h1 {
   }
   .something-more-wrapper p {
     font-size: 1.3rem;
+  }
+
+  /* SCENTS - Aroma Types Section */
+  .aroma-types-container {
+    width: 95%;
+  }
+
+  .aroma-title h3 {
+    font-size: 2.5rem;
+  }
+
+  .aroma-title .aroma-links {
+    font-size: 1.5rem;
+  }
+
+  .aroma-title .aroma-links a:hover,
+  .aroma-title .aroma-links .active {
+    font-size: 2.2rem;
+  }
+
+  .aroma-body .aroma-tag-container {
+    grid-template-columns: repeat(2, max-content);
+    font-size: 1.1rem;
+  }
+
+  .aroma-type .aroma-body {
+    border-radius: 2px;
+  }
+  
+  .aroma-col-span-tablet {
+    grid-column: span 2;
+  }
+
+  .aroma-body .aroma-tag-container .aroma-hash {
+    font-size: 1.5rem;
+  }
+
+  .aroma-type .aroma-list {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.1rem;
+    border: 2px solid var(--border);
+    border-radius: 5px;
+  }
+
+  .aroma-list li {
+    padding: 10px;
+    border: none;
+  }
+
+  .aroma-list-floral li:last-child {
+    display: none;
   }
 
   /* GALLERY - Images Section */
